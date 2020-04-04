@@ -14,6 +14,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.BusinessComponents", "TSD.AccountingSoft.BusinessComponents\TSD.AccountingSoft.BusinessComponents.csproj", "{E9C3E053-C122-4CA8-B6EA-821A2F1981B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Solution Items", "4. Solution Items", "{C6C34BB8-F818-4610-A5AF-195EEC6F32A1}"
+	ProjectSection(SolutionItems) = preProject
+		Test.txt = Test.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{36AEB231-8172-4C2A-A4C5-67849D4C28D3}"
 EndProject
