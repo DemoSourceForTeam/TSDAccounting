@@ -42,7 +42,7 @@ namespace TSD.AccountingSoft.DataHelpers
         {
             string ConnectionStringName = ConfigurationManager.AppSettings.Get("ConnectionStringName");
             string ConnectionString = ConfigurationManager.ConnectionStrings[ConnectionStringName].ConnectionString;
-            return ConnectionString;// "Data Source=BLACKFACE;Initial Catalog=ACCOUNTING;Persist Security Info=True;User ID=sa;Password=Tank@123";
+            return ConnectionString;// "Data Source=BLACKFACE;Initial Catalog=ACCOUNTING;Persist Security Info=True;User ID=sa;Password=LayoutFormBase@123";
         }
 
         #region Fast data readers

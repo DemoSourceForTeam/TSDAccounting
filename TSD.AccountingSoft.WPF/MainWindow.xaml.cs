@@ -42,7 +42,6 @@ namespace TSD.AccountingSoft.WPF
         {
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
-
         }
     }
 }
