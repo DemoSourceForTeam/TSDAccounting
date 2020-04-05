@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TSD.AccountingSoft.WPF.FormsSytem"
         xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="TSD.AccountingSoft.WPF.FormsSytem.FrmLogin"
         mc:Ignorable="d"
-        Title="FrmLogin" Height="563" Width="839 " WindowStyle="None" ResizeMode="NoResize" BorderThickness="1" BorderBrush="#FF2B579A">
+        Title="FrmLogin" Height="563" Width="839 " WindowStyle="None" ResizeMode="NoResize" BorderThickness="1" BorderBrush="#FF2B579A" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel HorizontalAlignment="Left" Height="563" VerticalAlignment="Top" Width="322" Background="#FF2B579A">
         </StackPanel>
@@ -47,7 +47,7 @@
         <Viewbox HorizontalAlignment="Left" Height="28" Margin="375,410,0,0" VerticalAlignment="Top" Width="209">
             <CheckBox Content="" FontFamily="Google Sans" FontSize="10" VerticalAlignment="Bottom" Width="81" Cursor="Hand"/>
         </Viewbox>
-        <Button x:Name="BtnCancel_Copy" Style="{StaticResource BtnCustomFlat}" HorizontalAlignment="Left" Height="25" Margin="667,323,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Google Sans" FontSize="16" Content="Quên mật khẩu" Cursor="Hand" Background="White" BorderThickness="0" Foreground="#EA5555" Click="BtnCancel_Click"/>
+        <Button x:Name="BtnCancel_Copy" Style="{StaticResource BtnCustomFlat}" HorizontalAlignment="Left" Height="25" Margin="667,323,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Google Sans" FontSize="16" Content="Quên mật khẩu" Cursor="Hand" Background="White" BorderThickness="0" Foreground="#EA5555"/>
         <StackPanel HorizontalAlignment="Left" Width="24"  Height="20" Margin="327,398,0,0" VerticalAlignment="Top" Background="Black" Visibility="Hidden"/>
     </Grid>
 
