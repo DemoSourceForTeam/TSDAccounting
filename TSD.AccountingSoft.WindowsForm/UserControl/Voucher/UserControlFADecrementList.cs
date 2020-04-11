@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="UserControlFADecrementList.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuDT
- * Email:    tudt@buca.vn
- * Website:
- * Create Date: Thursday, April 11, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date  07/03/2014       Author    Tudt           Description: Coding standard
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

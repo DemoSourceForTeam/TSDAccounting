@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SqlServerCompanyProfileDao.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Thursday, September 4, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using System;
 using System.Collections.Generic;
 using System.Data;

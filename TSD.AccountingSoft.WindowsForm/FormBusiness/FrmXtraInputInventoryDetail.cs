@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraInputInventoryDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM, ThangNK modified
- * Email:    tuanhm@buca.vn
- * Website:
- * Create Date: 22 August 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

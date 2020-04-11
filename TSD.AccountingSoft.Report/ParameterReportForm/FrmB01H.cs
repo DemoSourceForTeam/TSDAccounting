@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmB01H.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM
- * Email:    tuanhm@buca.vn
- * Website:
- * Create Date: Thursday, July 11, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using System;
 using System.Globalization;
 using System.Windows.Forms;

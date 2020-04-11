@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraFixedAssetFAInventory3000.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThoDD
- * Email:    ThoDD@buca.vn
- * Website:
- * Create Date: Friday, September 12, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using System;
 using System.Globalization;
 using System.Windows.Forms;

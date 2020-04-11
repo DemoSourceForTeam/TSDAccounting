@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SUIncrementDecrementDetailEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Tudt
- * Email:    tudt@buca.vn
- * Website:
- * Create Date: November 20, 2017
- * Usage: 
- * 
- * RevisionHistory: 
- * Date    20/11/2017     Author       tudt        Description 
- * 
- * ************************************************************************/
+﻿
 
 using System.Collections.Generic;
 using TSD.AccountingSoft.BusinessEntities.Business;

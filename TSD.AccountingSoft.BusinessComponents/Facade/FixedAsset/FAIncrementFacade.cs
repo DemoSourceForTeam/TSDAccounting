@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FAIncrementFacade.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   THODD
- * Email:    thodd@buca.vn
- * Website:
- * Create Date: Thursday, March 18, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date  07/03/2014       Author    Tudt           Description: Coding standard
- * 
- * ************************************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Transactions;

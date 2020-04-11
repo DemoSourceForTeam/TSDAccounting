@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="OleDbHelper.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Tuesday, May 27, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System.Data;
 using System.Data.OleDb;

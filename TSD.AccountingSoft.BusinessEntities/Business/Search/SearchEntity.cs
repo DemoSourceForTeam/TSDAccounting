@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SearchEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM
- * Email:    tuanhm@buca.vn
- * Website:
- * Create Date: Tuesday, October 28, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using System;
 
 namespace TSD.AccountingSoft.BusinessEntities.Business.Search

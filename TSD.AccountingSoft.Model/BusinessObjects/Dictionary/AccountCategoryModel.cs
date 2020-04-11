@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="AccountCategoryModel.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   BangNC
- * Email:    BangNC@buca.vn
- * Website:
- * Create Date: Thursday, March 13, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 namespace TSD.AccountingSoft.Model.BusinessObjects.Dictionary
 {

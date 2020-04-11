@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="BaseVoucherModel.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Wednesday, October 8, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
-using System;
+﻿using System;
 using System.ComponentModel;
 
 namespace TSD.AccountingSoft.Model.BusinessObjects.BaseModel

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FixedAssetArmortizationsPresenter.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 10 April 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.View.FixedAsset;
 

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FAIncrementDetailEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   THODD
- * Email:    thodd@buca.vn
- * Website:
- * Create Date: 18 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.BusinessEntities.BusinessRules;
 

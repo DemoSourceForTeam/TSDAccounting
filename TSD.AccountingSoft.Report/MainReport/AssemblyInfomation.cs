@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="AssemblyInfomation.cs" company="Linh Khang">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Author:   LinhMC
- * Email:    linhmc.vn@gmail.com
- * Website:
- * Create Date: Thursday, August 29, 2013
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
+﻿
 using System.Diagnostics;
 using System.Reflection;
 

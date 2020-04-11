@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SqlServerFixedAssetDao.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuDT
- * Email:    tudt@buca.vn
- * Website:
- * Create Date: Thursday, March 18, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date  07/03/2014       Author    Tudt           Description: Coding standard
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;
@@ -205,9 +191,9 @@ namespace TSD.AccountingSoft.Presenter.Estimate.PaymentEstimate
                 {
                     string content = GetContent(yearOfPlaning,refTypeId, companyCode, (int)receiptEstimate.BudgetSourceCategoryId);
                     var head = @"<?xml version='1.0' encoding='utf-8'?>";
-                    head = head + @"<BUCAEstimate>";
+                    head = head + @"<TSDEstimate>";
                     head = head + content;
-                    head = head + "</BUCAEstimate>";
+                    head = head + "</TSDEstimate>";
                     if (!Directory.Exists(tempFolderPath))
                     {
                         Directory.CreateDirectory(tempFolderPath);

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmCreateNewDatabase.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 02 June 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;
@@ -843,7 +829,7 @@ namespace TSD.AccountingSoft.WindowsForm.FormSystem
                 LoginSecure = false,
                 Login = RegistryHelper.GetValueByRegistryKey("UserName"),
                 //Password = RegistryHelper.GetValueByRegistryKey("Password")
-                Password = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@bgt1me")
+                Password = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@acc0unt1ng")
             };
             //create server
             _server = new Server(_serverConnection);

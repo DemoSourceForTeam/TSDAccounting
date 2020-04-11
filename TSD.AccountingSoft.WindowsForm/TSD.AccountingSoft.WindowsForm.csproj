@@ -1054,48 +1054,6 @@
     <Compile Include="UserControl\Dictionary\UserControlRefTypeList.Designer.cs">
       <DependentUpon>UserControlRefTypeList.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\Voucher\UserControlFAArmortizationList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlFAArmortizationList.Designer.cs">
-      <DependentUpon>UserControlFAArmortizationList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlSUDecrementList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlSUDecrementList.Designer.cs">
-      <DependentUpon>UserControlSUDecrementList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlSUIncrementList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlSUIncrementList.Designer.cs">
-      <DependentUpon>UserControlSUIncrementList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOpeningFixedAssetList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOpeningFixedAssetList.Designer.cs">
-      <DependentUpon>UserControlOpeningFixedAssetList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOpeningInventoryList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOpeningInventoryList.Designer.cs">
-      <DependentUpon>UserControlOpeningInventoryList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlAccountTranferVoucherList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlAccountTranferVoucherList.Designer.cs">
-      <DependentUpon>UserControlAccountTranferVoucherList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOpeningAccountEntryList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOpeningAccountEntryList.Designer.cs">
-      <DependentUpon>UserControlOpeningAccountEntryList.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserControl\Dictionary\UserControlPayItemList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1132,17 +1090,11 @@
     <Compile Include="UserControl\Dictionary\UserControlVoucherList.Designer.cs">
       <DependentUpon>UserControlVoucherList.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\Voucher\UserControlTransferVoucherList.cs">
+    <Compile Include="UserControl\Voucher\UserControlFAArmortizationList.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\Voucher\UserControlTransferVoucherList.Designer.cs">
-      <DependentUpon>UserControlTransferVoucherList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlFADecrementList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlFADecrementList.Designer.cs">
-      <DependentUpon>UserControlFADecrementList.cs</DependentUpon>
+    <Compile Include="UserControl\Voucher\UserControlFAArmortizationList.Designer.cs">
+      <DependentUpon>UserControlFAArmortizationList.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControl\Voucher\UserControlFAIncrementList.cs">
       <SubType>UserControl</SubType>
@@ -1150,59 +1102,17 @@
     <Compile Include="UserControl\Voucher\UserControlFAIncrementList.Designer.cs">
       <DependentUpon>UserControlFAIncrementList.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\Voucher\UserControlGeneralVoucherCapitalAllocateList.cs">
+    <Compile Include="UserControl\Voucher\UserControlOpeningFixedAssetList.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\Voucher\UserControlGeneralVoucherCapitalAllocateList.Designer.cs">
-      <DependentUpon>UserControlGeneralVoucherCapitalAllocateList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlGeneralVoucherList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlGeneralVoucherList.Designer.cs">
-      <DependentUpon>UserControlGeneralVoucherList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlInputInventoryList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlInputInventoryList.Designer.cs">
-      <DependentUpon>UserControlInputInventoryList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOutputInventoryList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlOutputInventoryList.Designer.cs">
-      <DependentUpon>UserControlOutputInventoryList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlPaymentDepositList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlPaymentDepositList.Designer.cs">
-      <DependentUpon>UserControlPaymentDepositList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlPaymentEstimateList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlPaymentEstimateList.Designer.cs">
-      <DependentUpon>UserControlPaymentEstimateList.cs</DependentUpon>
+    <Compile Include="UserControl\Voucher\UserControlOpeningFixedAssetList.Designer.cs">
+      <DependentUpon>UserControlOpeningFixedAssetList.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControl\Voucher\UserControlPaymentVoucherList.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControl\Voucher\UserControlPaymentVoucherList.Designer.cs">
       <DependentUpon>UserControlPaymentVoucherList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlReceiptDepositList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlReceiptDepositList.Designer.cs">
-      <DependentUpon>UserControlReceiptDepositList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlReceiptEstimateList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\Voucher\UserControlReceiptEstimateList.Designer.cs">
-      <DependentUpon>UserControlReceiptEstimateList.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControl\Voucher\UserControlSalaryList.cs">
       <SubType>UserControl</SubType>
@@ -1239,6 +1149,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBase\FrmXtraBaseVoucherDetail.resx">
       <DependentUpon>FrmXtraBaseVoucherDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBusiness\FrmOpeningSupplyEntries.resx">
       <DependentUpon>FrmOpeningSupplyEntries.cs</DependentUpon>
@@ -1257,6 +1168,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBusiness\FrmXtraAccountTranferVoucherDetail.resx">
       <DependentUpon>FrmXtraAccountTranferVoucherDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBusiness\FrmXtraOpeningAccountEntryDetail.resx">
       <DependentUpon>FrmXtraOpeningAccountEntryDetail.cs</DependentUpon>
@@ -1290,6 +1202,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBusiness\FrmXtraFormFADecrementDetail.resx">
       <DependentUpon>FrmXtraFormFADecrementDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBusiness\FrmXtraFormPaymentVoucherDetail.resx">
       <DependentUpon>FrmXtraFormPaymentVoucherDetail.cs</DependentUpon>
@@ -1491,6 +1404,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSystem\XtraAboutForm.resx">
       <DependentUpon>XtraAboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
@@ -1628,21 +1542,6 @@
     <EmbeddedResource Include="UserControl\Dictionary\UserControlRefTypeList.resx">
       <DependentUpon>UserControlRefTypeList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlFAArmortizationList.resx">
-      <DependentUpon>UserControlFAArmortizationList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlOpeningFixedAssetList.resx">
-      <DependentUpon>UserControlOpeningFixedAssetList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlOpeningInventoryList.resx">
-      <DependentUpon>UserControlOpeningInventoryList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlAccountTranferVoucherList.resx">
-      <DependentUpon>UserControlAccountTranferVoucherList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlOpeningAccountEntryList.resx">
-      <DependentUpon>UserControlOpeningAccountEntryList.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserControl\Dictionary\UserControlPayItemList.resx">
       <DependentUpon>UserControlPayItemList.cs</DependentUpon>
     </EmbeddedResource>
@@ -1661,44 +1560,17 @@
     <EmbeddedResource Include="UserControl\Dictionary\UserControlVoucherList.resx">
       <DependentUpon>UserControlVoucherList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlSUDecrementList.resx">
-      <DependentUpon>UserControlSUDecrementList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlTransferVoucherList.resx">
-      <DependentUpon>UserControlTransferVoucherList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlFADecrementList.resx">
-      <DependentUpon>UserControlFADecrementList.cs</DependentUpon>
+    <EmbeddedResource Include="UserControl\Voucher\UserControlFAArmortizationList.resx">
+      <DependentUpon>UserControlFAArmortizationList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl\Voucher\UserControlFAIncrementList.resx">
       <DependentUpon>UserControlFAIncrementList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlGeneralVoucherCapitalAllocateList.resx">
-      <DependentUpon>UserControlGeneralVoucherCapitalAllocateList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlGeneralVoucherList.resx">
-      <DependentUpon>UserControlGeneralVoucherList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlInputInventoryList.resx">
-      <DependentUpon>UserControlInputInventoryList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlOutputInventoryList.resx">
-      <DependentUpon>UserControlOutputInventoryList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlPaymentDepositList.resx">
-      <DependentUpon>UserControlPaymentDepositList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlPaymentEstimateList.resx">
-      <DependentUpon>UserControlPaymentEstimateList.cs</DependentUpon>
+    <EmbeddedResource Include="UserControl\Voucher\UserControlOpeningFixedAssetList.resx">
+      <DependentUpon>UserControlOpeningFixedAssetList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl\Voucher\UserControlPaymentVoucherList.resx">
       <DependentUpon>UserControlPaymentVoucherList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlReceiptDepositList.resx">
-      <DependentUpon>UserControlReceiptDepositList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Voucher\UserControlReceiptEstimateList.resx">
-      <DependentUpon>UserControlReceiptEstimateList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl\Voucher\UserControlSalaryList.resx">
       <DependentUpon>UserControlSalaryList.cs</DependentUpon>

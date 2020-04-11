@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="GeneralFacade.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: 17 April 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 25/9/2014    LinhMC  Them dieu kien kiem tra trung so chung tu: neu la chuyen doi du lieu thi khong check
- * ************************************************************************/
-
-using System;
+﻿using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Transactions;
@@ -124,7 +108,7 @@ namespace TSD.AccountingSoft.BusinessComponents.Facade.General
                                 return response;
                             }
                             var rd = new Random();
-                            generalEntity.RefNo = generalEntity.RefNo + "_buca" + rd.Next(1, 1000);
+                            generalEntity.RefNo = generalEntity.RefNo + "_tsd" + rd.Next(1, 1000);
                         }
                         #endregion
 

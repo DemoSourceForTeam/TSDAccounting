@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraReceiptDepositDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThoDD
- * Email:    thodd@buca.vn
- * Website:
- * Create Date: 04 June 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 26/8/2015 LINHMC xóa hàm override CopyAndPasteRowItem vì gây ra nhiều lỗi, đã sửa lại hàm base ok
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

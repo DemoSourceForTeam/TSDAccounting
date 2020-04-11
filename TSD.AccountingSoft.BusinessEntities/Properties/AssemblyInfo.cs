@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("TSD.AccountingSoft.BusinessEntities")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("BuCA JSC")]
+[assembly: AssemblyCompany("TSDSoft")]
 [assembly: AssemblyProduct("TSD.AccountingSoft.BusinessEntities")]
-[assembly: AssemblyCopyright("Copyright ©  2014 BuCA JSC")]
+[assembly: AssemblyCopyright("Copyright ©2020 TSDSoft")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

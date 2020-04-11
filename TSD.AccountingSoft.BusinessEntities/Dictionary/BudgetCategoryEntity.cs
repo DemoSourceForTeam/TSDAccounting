@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="BudgetCategoryEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   THODD
- * Email:    thodd@buca.vn
- * Website:
- * Create Date: 07 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.BusinessEntities.BusinessRules;
 

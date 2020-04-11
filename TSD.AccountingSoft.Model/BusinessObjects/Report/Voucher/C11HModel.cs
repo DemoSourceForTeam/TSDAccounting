@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="C22HModel.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 03 April 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

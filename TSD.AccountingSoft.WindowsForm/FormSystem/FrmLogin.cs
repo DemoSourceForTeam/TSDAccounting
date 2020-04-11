@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmLogin.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 30 May 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System.Diagnostics;
 using System.Globalization;
@@ -164,7 +150,7 @@ namespace TSD.AccountingSoft.WindowsForm.FormSystem
             {
                 LoginSecure = false,
                 Login = RegistryHelper.GetValueByRegistryKey("UserName"),
-                Password =  Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@bgt1me")
+                Password =  Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@acc0unt1ng")
             };
             //create server
             var server = new Server(serverConnection);

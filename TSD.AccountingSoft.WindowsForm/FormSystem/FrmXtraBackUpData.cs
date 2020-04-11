@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraBackUpData.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 24 June 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;
@@ -255,7 +241,7 @@ namespace TSD.AccountingSoft.WindowsForm.FormSystem
             gridView.BeginUpdate();
             var serverName = RegistryHelper.GetValueByRegistryKey("InstanceName");
             var databaseOwner = RegistryHelper.GetValueByRegistryKey("UserName");
-            var databaseOwnerPassword = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@bgt1me");
+            var databaseOwnerPassword = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@acc0unt1ng");
             var list = CommonFunction.GetDatabaseNames(serverName, databaseOwner, databaseOwnerPassword);
 
             if (list.Count <= 0) return;
@@ -274,7 +260,7 @@ namespace TSD.AccountingSoft.WindowsForm.FormSystem
                 {
                     LoginSecure = false,
                     Login = RegistryHelper.GetValueByRegistryKey("UserName"),
-                    Password = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@bgt1me")
+                    Password = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@acc0unt1ng")
                 };
             }
             //create server

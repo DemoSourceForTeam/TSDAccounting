@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraSalary.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:  TuanHM ,ThangNK modified 20/09/2014
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: Saturday, September 20, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

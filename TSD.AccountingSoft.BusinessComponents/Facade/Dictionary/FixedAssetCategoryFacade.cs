@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FixedAssetCategoryFacade.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Thursday, February 27, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-using System;
+﻿using System;
 using System.Linq;
 using System.Windows.Forms;
 using TSD.AccountingSoft.BusinessComponents.Messages.Dictionary;

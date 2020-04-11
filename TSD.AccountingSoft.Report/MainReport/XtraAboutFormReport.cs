@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="XtraAboutForm.cs" company="Linh Khang">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Author:   LinhMC
- * Email:    linhmc.vn@gmail.com
- * Website:
- * Create Date: Thursday, August 29, 2013
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
+﻿
 using System;
 using System.Windows.Forms;
 using TSD.AccountingSoft.Session;
@@ -59,7 +44,7 @@ namespace TSD.AccountingSoft.Report.MainReport
         /// <param name="e">The <see cref="LinkLabelLinkClickedEventArgs"/> instance containing the event data.</param>
         private void lblWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.buca.vn");
+            System.Diagnostics.Process.Start("http://www.black.vn");
         }
 
         /// <summary>
@@ -70,7 +55,7 @@ namespace TSD.AccountingSoft.Report.MainReport
         private void lblEmail_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             const string sbodytext = "Xin chao! %0AChung toi muon mua san pham phan mem cua quy cong ty, hay goi lai cho chung toi theo so dien thoai: %0A";
-            System.Diagnostics.Process.Start("mailto:head@buca.vn?subject=CHUNG TOI MUON MUA SAN PHAM NAY &body=" + sbodytext);
+            System.Diagnostics.Process.Start("mailto:head@black.vn?subject=CHUNG TOI MUON MUA SAN PHAM NAY &body=" + sbodytext);
         }
 
         /// <summary>

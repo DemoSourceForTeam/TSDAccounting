@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="OutputInventoriesPresenter.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   BangNC
- * Email:    BangNC@buca.vn
- * Website:
- * Create Date: 11 April 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.Presenter.Cash.PaymentVoucher;
 using TSD.AccountingSoft.View.Inventory;

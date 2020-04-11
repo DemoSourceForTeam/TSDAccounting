@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraSearchVoucher.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM
- * Email:    tuanhm@buca.vn, ThangNK 16/08/2014
- * Website:
- * Create Date: Saturday, June 1, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

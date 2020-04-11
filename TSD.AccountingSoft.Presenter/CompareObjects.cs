@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="CompareObjects.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Thursday, October 22, 2015
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using System.Globalization;
 using System;
 using System.Collections.Generic;

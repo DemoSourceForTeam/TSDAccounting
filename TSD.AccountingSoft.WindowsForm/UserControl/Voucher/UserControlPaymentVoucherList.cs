@@ -1,19 +1,4 @@
 ﻿
-/***********************************************************************
- * <copyright file="UserControlPaymentVoucherList.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Hoàng Bích Sơn, ThangNK Modify
- * Email:    sonhb@buca.vn
- * Website:
- * Create Date: Wednesday, March 19, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
 
 using System.Collections.Generic;
 using System.Linq;

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="AccountCategoryEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   BangNC
- * Email:    BangNC@buca.vn
- * Website:
- * Create Date: Friday, March 14, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.BusinessEntities.BusinessRules;
 

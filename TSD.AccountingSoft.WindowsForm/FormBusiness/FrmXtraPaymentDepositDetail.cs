@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraPaymentDepositDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   BangNC
- * Email:    BangNC@buca.vn
- * Website:
- * Create Date: Wednesday, March 19, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 26/8/2015 LINHMC xóa hàm override CopyAndPasteRowItem vì gây ra nhiều lỗi, đã sửa lại hàm base ok
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

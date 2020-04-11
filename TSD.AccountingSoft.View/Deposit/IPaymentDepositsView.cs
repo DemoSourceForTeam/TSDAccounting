@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SqlServerFixedAssetDao.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   BangNC
- * Email:    BangNC@buca.vn
- * Website:
- * Create Date: Thursday, March 18, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date  07/03/2014       Author    Thodd           Description: Coding standard
- * 
- * ************************************************************************/
+﻿
 
 using System.Collections.Generic;
 using TSD.AccountingSoft.Model.BusinessObjects.Deposit;

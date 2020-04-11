@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="VoucherListsPresenter.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Hoàng Bích Sơn
- * Email:    sonhb@buca.vn
- * Website:
- * Create Date: Wednesday, March 12, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.View.Dictionary;
 

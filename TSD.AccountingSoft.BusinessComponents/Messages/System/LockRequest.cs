@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SiteRequest.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 24 october 2016
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using TSD.AccountingSoft.BusinessComponents.Messages.MessageBase;

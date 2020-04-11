@@ -1,23 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="RepportCashEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: 15 May 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * Lớp này dùng chung cho tất cả các báo cáo 
- * ******** Sổ chi tiết tiền gửi ngân hàng
- * ******** Sổ tiền gửi ngân hàng
- * ******** Sổ quỹ tiền mặt
- * ******** Sổ chi tiết  quỹ tiền mặt  
- * ************************************************************************/
-
+﻿
 namespace TSD.AccountingSoft.BusinessEntities.Report.Finacial
 {
     /// <summary>

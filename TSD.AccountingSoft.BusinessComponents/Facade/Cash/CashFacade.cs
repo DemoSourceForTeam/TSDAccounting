@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="CashFacade.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Hoàng Bích Sơn
- * Email:    sonhb@buca.vn
- * Website:
- * Create Date: Tuesday, March 18, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 25/9/2014    LinhMC  Them dieu kien kiem tra trung so chung tu: neu la chuyen doi du lieu thi khong check
- * ************************************************************************/
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -136,7 +121,7 @@ namespace TSD.AccountingSoft.BusinessComponents.Facade.Cash
                                 return response;
                             }
                             var rd = new Random();
-                            cashEntity.RefNo = cashEntity.RefNo + "_buca" + rd.Next(1, 1000);
+                            cashEntity.RefNo = cashEntity.RefNo + "_tsd" + rd.Next(1, 1000);
                         }
 
                         #endregion

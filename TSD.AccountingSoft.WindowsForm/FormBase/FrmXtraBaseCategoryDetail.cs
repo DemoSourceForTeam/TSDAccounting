@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraBaseCategoryDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Monday, February 10, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 27/8/2015: LINHMC   Đưa phần nhật ký vào form base ghi lại thao tác người dùng
- * ************************************************************************/
+﻿
 
 using System;
 using System.ComponentModel;

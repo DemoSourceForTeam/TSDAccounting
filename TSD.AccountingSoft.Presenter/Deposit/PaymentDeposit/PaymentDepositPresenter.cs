@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="PaymentDepositPresenter.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   BangNC
- * Email:    BangNC@buca.vn
- * Website:
- * Create Date: Friday, March 21, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.View.Deposit;
 using TSD.AccountingSoft.Model.BusinessObjects.Deposit;

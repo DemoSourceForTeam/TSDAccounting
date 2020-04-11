@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="IModel.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Thangnk
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: 12 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date: 19/05/2014  Author: ThangND   Description: Thêm các region, mọi người code cho hẳn hoi chút tạo các phần mục theo chuẩn để code không bị lẫn lộn
- * 
-* ************************************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using TSD.AccountingSoft.Model.BusinessObjects.Cash;
 using TSD.AccountingSoft.Model.BusinessObjects.Deposit;

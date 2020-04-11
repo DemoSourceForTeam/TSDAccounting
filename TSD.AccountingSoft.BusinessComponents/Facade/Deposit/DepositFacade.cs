@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="DepositFacade.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   THODD
- * Email:    thodd@buca.vn
- * Website:
- * Create Date: Thursday, March 18, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date  07/03/2014       Author    Tudt           Description: Coding standard
- * 25/9/2014    LinhMC  Them dieu kien kiem tra trung so chung tu: neu la chuyen doi du lieu thi khong check
- * ************************************************************************/
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -142,7 +127,7 @@ namespace TSD.AccountingSoft.BusinessComponents.Facade.Deposit
                                 return response;
                             }
                             var rd = new Random();
-                            depositEntity.RefNo = depositEntity.RefNo + "_buca" + rd.Next(1, 1000);
+                            depositEntity.RefNo = depositEntity.RefNo + "_tsd" + rd.Next(1, 1000);
                         }
 
                         #endregion

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraBaseVoucherDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Thursday, February 13, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date: 23/09/2014  Author: ThangND  Description: Sửa lại chức năng xóa chứng từ
- * 27/8/2015: LINHMC   Đưa phần nhật ký vào form base ghi lại thao tác người dùng
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

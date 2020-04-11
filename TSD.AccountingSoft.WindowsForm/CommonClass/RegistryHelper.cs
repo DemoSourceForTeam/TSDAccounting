@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="RegistryHelper.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 03 June 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Configuration;
@@ -49,8 +35,6 @@ namespace TSD.AccountingSoft.WindowsForm.CommonClass
                 if (!key.ToLower().Contains("password")) return winLogonKey.GetValue(key) == null ? null : (string)winLogonKey.GetValue(key);
 
                 var password = winLogonKey.GetValue(key) == null ? null : (string)winLogonKey.GetValue(key);
-                //if (!string.IsNullOrEmpty(password) && (password.Contains("buca") || password.Contains("abigtime"))) //pwd chua dc ma hoa
-                //    SetValueForRegistry(key, password);
 
                 try
                 {
@@ -77,7 +61,7 @@ namespace TSD.AccountingSoft.WindowsForm.CommonClass
             if (winLogonKey == null) return;
             if (keyValue.ToLower().Contains("password"))
             {
-                var passwordEncrypted = Crypto.Encrypting(value, "@bgt1me");
+                var passwordEncrypted = Crypto.Encrypting(value, "@acc0unt1ng");
                 winLogonKey.SetValue(keyValue, passwordEncrypted, RegistryValueKind.String);
             }
             else
@@ -91,7 +75,7 @@ namespace TSD.AccountingSoft.WindowsForm.CommonClass
         /// </summary>
         public static void SaveConfigFile()
         {
-            var str = Crypto.Encrypting("buCa@12345678", "@bgt1me");
+            var str = Crypto.Encrypting("tsd@12345678", "@acc0unt1ng");
             var dataProvider = ConfigurationManager.AppSettings.Get("ConnectionStringName");
             var appConfig = ConfigurationManager.OpenExeConfiguration(Assembly.GetExecutingAssembly().Location);
             //xu ly password
@@ -100,7 +84,7 @@ namespace TSD.AccountingSoft.WindowsForm.CommonClass
             {
                 try
                 {
-                    password = Crypto.Decrypting(password, "@bgt1me");
+                    password = Crypto.Decrypting(password, "@acc0unt1ng");
                 }
                 catch
                 {

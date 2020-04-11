@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="MainRibbonForm.cs" company="Linh Khang">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Author:   LinhMC
- * Email:    linhmc.vn@gmail.com
- * Website:
- * Create Date: Sunday, February 09, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
+﻿
 using System;
 using System.Diagnostics;
 using System.Drawing;
@@ -195,12 +180,12 @@ namespace TSD.AccountingSoft.WindowsForm
                             frmRegister.ShowDialog();
                         }
                         break;
-                    case "barButtonAboutItem":
-                        using (var frmAbout = new XtraAboutForm())
-                        {
-                            frmAbout.ShowDialog();
-                        }
-                        break;
+                    //case "barButtonAboutItem":
+                    //    using (var frmAbout = new XtraAboutForm())
+                    //    {
+                    //        frmAbout.ShowDialog();
+                    //    }
+                    //    break;
 
                     case "barButtonAutoUpdateItem":
                         string currentVersion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
@@ -214,31 +199,31 @@ namespace TSD.AccountingSoft.WindowsForm
                         Process.Start(info);
                         break;
 
-                    case "barButtonOpeningSupplyEntry":
-                        //if (CommonFunction.CommonUserControl != null &&
-                        //    CommonFunction.CommonUserControl.GetType() != typeof(UserControlOpeningInventoryList))
-                        //{
-                        //    var userControl = new UserControlOpeningInventoryList { Dock = DockStyle.Fill, HelpTopicId = 3050 };
-                        //    CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                        //}
+                    //case "barButtonOpeningSupplyEntry":
+                    //    //if (CommonFunction.CommonUserControl != null &&
+                    //    //    CommonFunction.CommonUserControl.GetType() != typeof(UserControlOpeningInventoryList))
+                    //    //{
+                    //    //    var userControl = new UserControlOpeningInventoryList { Dock = DockStyle.Fill, HelpTopicId = 3050 };
+                    //    //    CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //    //}
 
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(FrmOpeningSupplyEntries))
-                        {
-                            var userControl = new FrmOpeningSupplyEntries { Dock = DockStyle.Fill, HelpTopicId = 117 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text = ResourceHelper.GetResourceValueByName("ResOpeningSupplyEntryCaption");
-                        }
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(FrmOpeningSupplyEntries))
+                    //    {
+                    //        var userControl = new FrmOpeningSupplyEntries { Dock = DockStyle.Fill, HelpTopicId = 117 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text = ResourceHelper.GetResourceValueByName("ResOpeningSupplyEntryCaption");
+                    //    }
 
                         break;
-                    case "barButtonOpeningFixedAssetEntry":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlOpeningFixedAssetList))
-                        {
-                            var userControl = new UserControlOpeningFixedAssetList { Dock = DockStyle.Fill, HelpTopicId = 3060 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                        }
-                        break;
+                    //case "barButtonOpeningFixedAssetEntry":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlOpeningFixedAssetList))
+                    //    {
+                    //        var userControl = new UserControlOpeningFixedAssetList { Dock = DockStyle.Fill, HelpTopicId = 3060 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //    }
+                    //    break;
                     case "barButtonCreateNewDatabase":
                         using (var frmCreateNewDatabase = new FrmCreateNewDatabase())
                         {
@@ -270,28 +255,28 @@ namespace TSD.AccountingSoft.WindowsForm
                         var frmXtraSearchVoucher = new FrmXtraSearchVoucher();
                         frmXtraSearchVoucher.ShowDialog();
                         break;
-                    case "barInputInventory":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlInputInventoryList))
-                        {
-                            var userControl = new UserControlInputInventoryList { Dock = DockStyle.Fill, HelpTopicId = 5010 };
+                    //case "barInputInventory":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlInputInventoryList))
+                    //    {
+                    //        var userControl = new UserControlInputInventoryList { Dock = DockStyle.Fill, HelpTopicId = 5010 };
 
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResInputInventoryListCaption");
-                        }
-                        break;
-                    case "barSalaryItem":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlSalaryList))
-                        {
-                            _globalVariable = new GlobalVariable();
-                            var userControl = new UserControlSalaryList { Dock = DockStyle.Fill, HelpTopicId = 5070 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text = ResourceHelper.GetResourceValueByName("ResSalaryListCaption") + @" năm " +
-                            DateTime.Parse(_globalVariable.PostedDate).Year;
-                        }
-                        break;
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResInputInventoryListCaption");
+                    //    }
+                    //    break;
+                    //case "barSalaryItem":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlSalaryList))
+                    //    {
+                    //        _globalVariable = new GlobalVariable();
+                    //        var userControl = new UserControlSalaryList { Dock = DockStyle.Fill, HelpTopicId = 5070 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text = ResourceHelper.GetResourceValueByName("ResSalaryListCaption") + @" năm " +
+                    //        DateTime.Parse(_globalVariable.PostedDate).Year;
+                    //    }
+                    //    break;
                     case "barCapitalAllocateItem":
                         if (CommonFunction.CommonUserControl != null &&
                             CommonFunction.CommonUserControl.GetType() != typeof(UserControlCapitalAllocateList))
@@ -332,17 +317,17 @@ namespace TSD.AccountingSoft.WindowsForm
                                 ResourceHelper.GetResourceValueByName("ResCashReceiptCaption");
                         }
                         break;
-                    case "barButtonPlaymentItem":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlPaymentEstimateList))
-                        {
-                            var userControl = new UserControlPaymentEstimateList { Dock = DockStyle.Fill, HelpTopicId = 6080 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResCashReceiptCaption");
-                        }
+                    //case "barButtonPlaymentItem":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlPaymentEstimateList))
+                    //    {
+                    //        var userControl = new UserControlPaymentEstimateList { Dock = DockStyle.Fill, HelpTopicId = 6080 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResCashReceiptCaption");
+                    //    }
 
-                        break;
+                    //    break;
                     case "barButtonDepartment":
                         if (CommonFunction.CommonUserControl != null &&
                             CommonFunction.CommonUserControl.GetType() != typeof(UserControlDepartmentList))
@@ -580,46 +565,46 @@ namespace TSD.AccountingSoft.WindowsForm
                         var frmAuditingLog = new FrmXtraAuditingLog();
                         frmAuditingLog.Show();
                         break;
-                    case "barButtonReceiptEstimateItem":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlReceiptEstimateList))
-                        {
-                            var userControl = new UserControlReceiptEstimateList { Dock = DockStyle.Fill, HelpTopicId = 7000 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResReceiptEstimateCaption");
-                        }
-                        break;
-                    case "barButtonPaymentEstimateItem":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlPaymentEstimateList))
-                        {
-                            var userControl = new UserControlPaymentEstimateList { Dock = DockStyle.Fill, HelpTopicId = 7000 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResPaymentEstimateCaption");
-                        }
-                        break;
-                    case "barButtonPaymentDepositItem":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlPaymentDepositList))
-                        {
-                            var userControl = new UserControlPaymentDepositList { Dock = DockStyle.Fill, HelpTopicId = 5000 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResPaymentDepositCaption");
-                        }
-                        break;
-                    case "barButtonReceiptDepositItem":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlReceiptDepositList))
-                        {
-                            var userControl = new UserControlReceiptDepositList { Dock = DockStyle.Fill, HelpTopicId = 4090 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResReceiptDepositCaption");
-                        }
-                        break;
+                    //case "barButtonReceiptEstimateItem":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlReceiptEstimateList))
+                    //    {
+                    //        var userControl = new UserControlReceiptEstimateList { Dock = DockStyle.Fill, HelpTopicId = 7000 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResReceiptEstimateCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonPaymentEstimateItem":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlPaymentEstimateList))
+                    //    {
+                    //        var userControl = new UserControlPaymentEstimateList { Dock = DockStyle.Fill, HelpTopicId = 7000 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResPaymentEstimateCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonPaymentDepositItem":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlPaymentDepositList))
+                    //    {
+                    //        var userControl = new UserControlPaymentDepositList { Dock = DockStyle.Fill, HelpTopicId = 5000 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResPaymentDepositCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonReceiptDepositItem":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlReceiptDepositList))
+                    //    {
+                    //        var userControl = new UserControlReceiptDepositList { Dock = DockStyle.Fill, HelpTopicId = 4090 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResReceiptDepositCaption");
+                    //    }
+                    //    break;
                     case "barButtonAutoBusiness":
                         if (CommonFunction.CommonUserControl != null && CommonFunction.CommonUserControl.GetType() != typeof(UserControlAutoBusinessList))
                         {
@@ -657,67 +642,67 @@ namespace TSD.AccountingSoft.WindowsForm
                                 ResourceHelper.GetResourceValueByName("ResBudgetSourceCategory");
                         }
                         break;
-                    case "barButtonFAIncrement":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlFAIncrementList))
-                        {
-                            var userControl = new UserControlFAIncrementList { Dock = DockStyle.Fill, HelpTopicId = 6000 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResFixedAssetIncrementCaption");
-                        }
-                        break;
-                    case "barButtonFADecrement":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlFADecrementList))
-                        {
-                            var userControl = new UserControlFADecrementList { Dock = DockStyle.Fill, HelpTopicId = 6020 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResFixedAssetDecrementCaption");
-                        }
-                        break;
-                    case "barButtonFAArmortization":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlFAArmortizationList))
-                        {
-                            var userControl = new UserControlFAArmortizationList { Dock = DockStyle.Fill, HelpTopicId = 6030 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResFixedAssetArmortizationCaption");
-                        }
-                        break;
-                    case "barButtonGeneral":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlGeneralVoucherList))
-                        {
-                            var userControl = new UserControlGeneralVoucherList { Dock = DockStyle.Fill, HelpTopicId = 6050 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResGeneralVoucherCaption");
-                        }
-                        break;
+                    //case "barButtonFAIncrement":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlFAIncrementList))
+                    //    {
+                    //        var userControl = new UserControlFAIncrementList { Dock = DockStyle.Fill, HelpTopicId = 6000 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResFixedAssetIncrementCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonFADecrement":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlFADecrementList))
+                    //    {
+                    //        var userControl = new UserControlFADecrementList { Dock = DockStyle.Fill, HelpTopicId = 6020 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResFixedAssetDecrementCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonFAArmortization":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlFAArmortizationList))
+                    //    {
+                    //        var userControl = new UserControlFAArmortizationList { Dock = DockStyle.Fill, HelpTopicId = 6030 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResFixedAssetArmortizationCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonGeneral":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlGeneralVoucherList))
+                    //    {
+                    //        var userControl = new UserControlGeneralVoucherList { Dock = DockStyle.Fill, HelpTopicId = 6050 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResGeneralVoucherCaption");
+                    //    }
+                    //    break;
 
-                    case "barButtonOutputInventory":
-                        if (CommonFunction.CommonUserControl != null && CommonFunction.CommonUserControl.GetType() != typeof(UserControlOutputInventoryList))
-                        {
-                            var userControl = new UserControlOutputInventoryList { Dock = DockStyle.Fill, HelpTopicId = 5020 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResOutputInventoryCaption");
-                        }
-                        break;
+                    //case "barButtonOutputInventory":
+                    //    if (CommonFunction.CommonUserControl != null && CommonFunction.CommonUserControl.GetType() != typeof(UserControlOutputInventoryList))
+                    //    {
+                    //        var userControl = new UserControlOutputInventoryList { Dock = DockStyle.Fill, HelpTopicId = 5020 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResOutputInventoryCaption");
+                    //    }
+                    //    break;
 
-                    case "barbtnCaptitalAllocateVoucher":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlGeneralVoucherCapitalAllocateList))
-                        {
-                            var userControl = new UserControlGeneralVoucherCapitalAllocateList { Dock = DockStyle.Fill, HelpTopicId = 6040 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResGeneralVouchersCapitalAllocateCaption");
-                        }
-                        break;
+                    //case "barbtnCaptitalAllocateVoucher":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlGeneralVoucherCapitalAllocateList))
+                    //    {
+                    //        var userControl = new UserControlGeneralVoucherCapitalAllocateList { Dock = DockStyle.Fill, HelpTopicId = 6040 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResGeneralVouchersCapitalAllocateCaption");
+                    //    }
+                    //    break;
                     case "barButtonBuildingItem":
                         if (CommonFunction.CommonUserControl != null &&
                             CommonFunction.CommonUserControl.GetType() != typeof(UserControlBuildingList))
@@ -728,25 +713,25 @@ namespace TSD.AccountingSoft.WindowsForm
                                 ResourceHelper.GetResourceValueByName("ResBuildingCaption");
                         }
                         break;
-                    case "barButtonSUIncrement":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlSUIncrementList))
-                        {
-                            var userControl = new UserControlSUIncrementList { Dock = DockStyle.Fill, HelpTopicId = 1010 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResSUIncrementCaption");
-                        }
-                        break;
-                    case "barButtonSUDecrement":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlSUDecrementList))
-                        {
-                            var userControl = new UserControlSUDecrementList { Dock = DockStyle.Fill, HelpTopicId = 1010 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text = ResourceHelper.GetResourceValueByName("ResSUDecrementCaption");
-                        }
-                        break;
+                    //case "barButtonSUIncrement":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlSUIncrementList))
+                    //    {
+                    //        var userControl = new UserControlSUIncrementList { Dock = DockStyle.Fill, HelpTopicId = 1010 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResSUIncrementCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonSUDecrement":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlSUDecrementList))
+                    //    {
+                    //        var userControl = new UserControlSUDecrementList { Dock = DockStyle.Fill, HelpTopicId = 1010 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text = ResourceHelper.GetResourceValueByName("ResSUDecrementCaption");
+                    //    }
+                    //    break;
 
                     case "barButtonDbOption":
                         var frmXtraFormDbOption = new FrmXtraFormDbOption();
@@ -774,27 +759,27 @@ namespace TSD.AccountingSoft.WindowsForm
                         frmXtraUpdateAmountExchange.ShowDialog();
                         break;
 
-                    case "barButtonTransferItem":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() !=
-                            typeof(UserControlAccountTranferVoucherList))
-                        {
-                            var userControl = new UserControlAccountTranferVoucherList { Dock = DockStyle.Fill, HelpTopicId = 6060 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                            ResourceHelper.GetResourceValueByName("ResTransferVoucherCaption");
-                        }
-                        break;
-                    case "barButtonOpeningAccountEntry":
-                        if (CommonFunction.CommonUserControl != null &&
-                            CommonFunction.CommonUserControl.GetType() != typeof(UserControlOpeningAccountEntryList))
-                        {
-                            var userControl = new UserControlOpeningAccountEntryList { Dock = DockStyle.Fill, HelpTopicId = 3050 };
-                            CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
-                            mainPanelControl.FeatureCaption.Text =
-                                ResourceHelper.GetResourceValueByName("ResOpeningAccountEntry");
-                        }
-                        break;
+                    //case "barButtonTransferItem":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() !=
+                    //        typeof(UserControlAccountTranferVoucherList))
+                    //    {
+                    //        var userControl = new UserControlAccountTranferVoucherList { Dock = DockStyle.Fill, HelpTopicId = 6060 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //        ResourceHelper.GetResourceValueByName("ResTransferVoucherCaption");
+                    //    }
+                    //    break;
+                    //case "barButtonOpeningAccountEntry":
+                    //    if (CommonFunction.CommonUserControl != null &&
+                    //        CommonFunction.CommonUserControl.GetType() != typeof(UserControlOpeningAccountEntryList))
+                    //    {
+                    //        var userControl = new UserControlOpeningAccountEntryList { Dock = DockStyle.Fill, HelpTopicId = 3050 };
+                    //        CommonFunction.RunUserControl(userControl, mainPanelControl.MainPanel);
+                    //        mainPanelControl.FeatureCaption.Text =
+                    //            ResourceHelper.GetResourceValueByName("ResOpeningAccountEntry");
+                    //    }
+                    //    break;
                     case "barButtonEmployeeLeasingItem":
                         if (CommonFunction.CommonUserControl != null &&
                             CommonFunction.CommonUserControl.GetType() != typeof(UserControlEmployeeLeasingList))
@@ -1096,7 +1081,7 @@ namespace TSD.AccountingSoft.WindowsForm
                     {
                         LoginSecure = false,
                         Login = RegistryHelper.GetValueByRegistryKey("UserName"),
-                        Password = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@bgt1me")
+                        Password = Crypto.Decrypting(RegistryHelper.GetValueByRegistryKey("Password"), "@acc0unt1ng")
                     };
                 }
                 //create server

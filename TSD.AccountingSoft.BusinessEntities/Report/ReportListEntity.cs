@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="ReportListEntity.cs" company="Linh Khang">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Author:   LinhMC
- * Email:    linhmc.vn@gmail.com
- * Website:
- * Create Date: Monday, February 24, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using TSD.AccountingSoft.BusinessEntities.BusinessRules;
 
 namespace TSD.AccountingSoft.BusinessEntities.Report

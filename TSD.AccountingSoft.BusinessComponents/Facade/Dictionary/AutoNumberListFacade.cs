@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="StockFacade.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: Wednesday, March 12, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
+﻿
 using System;
 using System.Linq;
 using TSD.AccountingSoft.BusinessComponents.Messages.Dictionary;

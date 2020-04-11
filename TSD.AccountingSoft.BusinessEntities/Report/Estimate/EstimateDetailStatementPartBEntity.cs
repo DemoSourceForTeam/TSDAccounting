@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="EstimateDetailStatementPartBEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TUDT
- * Email:     tudt@buca.vn
- * Website:
- * Create Date: 23 June 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 namespace TSD.AccountingSoft.BusinessEntities.Report.Estimate
 {

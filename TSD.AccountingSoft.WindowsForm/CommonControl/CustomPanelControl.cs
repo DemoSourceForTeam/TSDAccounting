@@ -1,18 +1,4 @@
-/***********************************************************************
- * <copyright file="CustomPanelControl.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Thursday, September 29, 2016
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+
 using System.Drawing;
 using DevExpress.LookAndFeel;
 using DevExpress.Skins;

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraCurrencyDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM
- * Email:    Tuanhm@buca.vn
- * Website:
- * Create Date: Tuesday, March 11, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System.Windows.Forms;
 using TSD.AccountingSoft.Presenter.Dictionary.Currency;

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="VoucherListRequest.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Hoàng Bích Sơn
- * Email:    sonhb@buca.vn
- * Website:
- * Create Date: Wednesday, March 5, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.BusinessComponents.Messages.MessageBase;
 using TSD.AccountingSoft.BusinessEntities.Dictionary;

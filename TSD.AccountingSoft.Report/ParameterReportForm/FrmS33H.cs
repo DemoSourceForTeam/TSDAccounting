@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmS33H.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK <Sổ Chi tiết các tài khoản>
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: 19 August 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

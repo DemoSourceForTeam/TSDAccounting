@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="ReportGroupEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Thursday, March 13, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using TSD.AccountingSoft.BusinessEntities.BusinessRules;
 
 namespace TSD.AccountingSoft.BusinessEntities.Report

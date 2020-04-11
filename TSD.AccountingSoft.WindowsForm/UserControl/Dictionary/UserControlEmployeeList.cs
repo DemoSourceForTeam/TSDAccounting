@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="UserControlEmployeeList.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@boca.vn
- * Website:
- * Create Date: 08 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
+﻿
 using System.Collections.Generic;
 using TSD.AccountingSoft.Model.BusinessObjects.Dictionary;
 using TSD.AccountingSoft.Presenter.Dictionary.Employee;

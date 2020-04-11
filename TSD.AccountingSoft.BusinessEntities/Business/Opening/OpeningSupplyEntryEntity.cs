@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="OpeningSupplyEntryEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   SonTV
- * Email:    SonTV@buca.vn
- * Website:
- * Create Date: Wednesday, January 3, 2018
- * Usage: 
- * 
- * RevisionHistory: 
- * DateWednesday, January 3, 2018Author SonTV  Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

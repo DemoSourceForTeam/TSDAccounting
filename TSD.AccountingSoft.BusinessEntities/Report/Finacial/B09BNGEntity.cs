@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="B09BNGEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Saturday, August 23, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 namespace TSD.AccountingSoft.BusinessEntities.Report.Finacial
 {

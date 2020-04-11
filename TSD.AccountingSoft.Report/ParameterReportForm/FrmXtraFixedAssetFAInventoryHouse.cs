@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraFixedAssetFAInventoryHouse.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: 10 January 2015
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Globalization;

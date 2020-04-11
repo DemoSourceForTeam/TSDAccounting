@@ -1,19 +1,5 @@
-﻿/***********************************************************************
- * <copyright file="ReportLedgerAccounting.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 19 May 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 10/9/2014    LinhMC               Sửa lại toàn bộ method check điều kiện nếu nạp lại dữ liệu thì ko show form param
- * 04/10/2016   ThoDD               Thêm toàn bộ các báo cáo có chức năng chuyển sang dòng sau 
- * ************************************************************************/
+﻿
+
 
 using System;
 using System.Collections.Generic;

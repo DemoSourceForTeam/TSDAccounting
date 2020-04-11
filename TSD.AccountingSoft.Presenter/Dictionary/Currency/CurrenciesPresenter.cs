@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="CurrenciesPresenter.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM
- * Email:    Tuanhm@buca.vn
- * Website:
- * Create Date: Friday, March 7, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.View.Dictionary;
 

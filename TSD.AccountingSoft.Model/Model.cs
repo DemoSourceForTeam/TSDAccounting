@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="Model.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 12 March 2014 
- * Usage:  
- * 
- * RevisionHistory: 
- * Date: 19/05/2014  Author: ThangND   Description: Thêm các region, mọi người code cho hẳn hoi chút tạo các phần mục theo chuẩn để code không bị lẫn lộn
- * Date: 30/05/2014  Author: LinhMC    Description: Thêm hàm lấy mã ID theo code của bất kỳ bảng nào phụ thuộc vào tham số truyền vào.
- * ************************************************************************/
-
-using System;
+﻿using System;
 using System.Linq;
 using System.Collections.Generic;
 using TSD.AccountingSoft.BusinessComponents.Facade;

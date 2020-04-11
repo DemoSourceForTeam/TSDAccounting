@@ -263,7 +263,7 @@
             // barStaticItem1
             // 
             this.barStaticItem1.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            this.barStaticItem1.Caption = "<b>Máy chủ</b>: BUCASERVER";
+            this.barStaticItem1.Caption = "<b>Máy chủ</b>: TSDSERVER";
             this.barStaticItem1.Id = 5;
             this.barStaticItem1.Name = "barStaticItem1";
             this.barStaticItem1.TextAlignment = System.Drawing.StringAlignment.Near;

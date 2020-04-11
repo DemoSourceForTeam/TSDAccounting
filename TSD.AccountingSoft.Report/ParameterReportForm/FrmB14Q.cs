@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmB14Q.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM 
- * Email:    TuanHM@buca.vn
- * Website:
- * Create Date: Friday, September 12, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using System;
 using System.Collections.Generic;
 using System.Globalization;

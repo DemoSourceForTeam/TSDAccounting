@@ -377,9 +377,9 @@ namespace TSD.AccountingSoft.WindowsForm.FormSystem
                 }
                 string fileName = GlobalVariable.CompanyName;
                 var head = @"<?xml version='1.0' encoding='utf-8'?>";
-                head = head + @"<BUCAFinalization>";
+                head = head + @"<TSDFinalization>";
                 head = head + profile + contentXML;
-                head = head + "</BUCAFinalization>";
+                head = head + "</TSDFinalization>";
                 if (!Directory.Exists(tempFolderPath))
                 {
                     Directory.CreateDirectory(tempFolderPath);

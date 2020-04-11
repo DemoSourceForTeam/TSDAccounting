@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraPrintVoucherByLot.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn, Thangnk modifiled <15/09/2014>
- * Website:
- * Create Date: Wednesday, June 11, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 
 using System;

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="EstimateDetailStatement.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 11 June 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System.Collections.Generic;
 using TSD.AccountingSoft.BusinessEntities.Dictionary;

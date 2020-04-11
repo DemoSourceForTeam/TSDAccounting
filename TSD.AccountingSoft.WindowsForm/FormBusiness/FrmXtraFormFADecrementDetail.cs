@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmXtraFormFADecrementDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TUDT
- * Email:    tudt@buca.vn
- * Website:
- * Create Date: 11 April 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

@@ -70,7 +70,7 @@ namespace TSD.AccountingSoft.WindowsForm.FormSystem
         /// <param name="e">The <see cref="LinkLabelLinkClickedEventArgs"/> instance containing the event data.</param>
         private void lblWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.buca.vn");
+            System.Diagnostics.Process.Start("http://www.black.vn");
         }
 
         /// <summary>
@@ -81,7 +81,7 @@ namespace TSD.AccountingSoft.WindowsForm.FormSystem
         private void lblEmail_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             const string sbodytext = "Xin chao! %0AChung toi muon mua san pham phan mem cua quy cong ty, hay goi lai cho chung toi theo so dien thoai: %0A";
-            System.Diagnostics.Process.Start("mailto:head@buca.vn?subject=CHUNG TOI MUON MUA SAN PHAM NAY &body=" + sbodytext);
+            System.Diagnostics.Process.Start("mailto:head@black.vn?subject=CHUNG TOI MUON MUA SAN PHAM NAY &body=" + sbodytext);
         }
 
         /// <summary>

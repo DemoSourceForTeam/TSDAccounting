@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="ExchangeRateFacade.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Tuesday, August 18, 2015
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
-using System;
+﻿using System;
 using System.Linq;
 using System.Transactions;
 using TSD.AccountingSoft.BusinessComponents.Messages.Dictionary;

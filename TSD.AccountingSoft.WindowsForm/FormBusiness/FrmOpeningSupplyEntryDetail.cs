@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmOpeningSupplyEntryDetail.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Tudt
- * Email:    tudt@buca.vn
- * Website:
- * Create Date: Thursday, July 19, 2018
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.View.Dictionary;
 using System;

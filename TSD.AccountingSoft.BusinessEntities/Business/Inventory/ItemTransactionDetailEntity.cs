@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="ItemTransactionDetailEntity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanMH
- * Email:    TuanMH@buca.vn
- * Website:
- * Create Date: 11 April 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.BusinessEntities.BusinessRules;
 

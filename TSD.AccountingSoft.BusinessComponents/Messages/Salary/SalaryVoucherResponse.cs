@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="GeneralLedgerRequest.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangNK@buca.vn
- * Website:
- * Create Date: 13 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System.Collections.Generic;
 using TSD.AccountingSoft.BusinessComponents.Messages.MessageBase;

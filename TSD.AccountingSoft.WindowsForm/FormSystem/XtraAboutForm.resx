@@ -475,21 +475,7 @@
 </value>
   </data>
   <data name="rtbSupportInfo.Text" xml:space="preserve">
-    <value>Công ty Cổ phần BuCA
-Địa chỉ: 120 Trần Quốc Hoàn - Cầu Giấy - Hà Nội
-Điện thoại: 84-04-3754 8964
-Email: sale@buca.vn
-Website: http://www.buca.vn
-=======================
-Văn phòng đại diện tại TP Hồ Chí Minh
-Địa chỉ: Quận 1
-Điện thoại: 84-08-3123 456
-Email: sale@hcm.buca.vn
-=======================
-Văn phòng đại diện tại TP Đà Nẵng
-Địa chỉ: Quận 1
-Điện thoại: 84-058-3123 456
-Email: sale@dn.buca.vn</value>
+    <value>Test</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

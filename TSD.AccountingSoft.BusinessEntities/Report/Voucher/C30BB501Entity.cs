@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="C30BB501Entity.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   tudt  
- * Email:    tudt@buca.vn
- * Website:
- * Create Date: 19 November 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 namespace TSD.AccountingSoft.BusinessEntities.Report.Voucher
 {

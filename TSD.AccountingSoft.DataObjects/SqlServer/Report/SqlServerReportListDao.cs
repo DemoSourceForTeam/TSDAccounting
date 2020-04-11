@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SqlServerReportListDao.cs" company="Linh Khang">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Author:   LinhMC
- * Email:    linhmc.vn@gmail.com
- * Website:
- * Create Date: Monday, February 24, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;

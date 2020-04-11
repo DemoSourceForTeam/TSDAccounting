@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="DepositModel.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   BangNC
- * Email:    BangNC@buca.vn
- * Website:
- * Create Date: Tuesday, March 18, 2014
- * Create Date: Tuesday, March 18, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
+﻿
 using TSD.AccountingSoft.Model.BusinessObjects.BaseModel;
 using System;
 using System.Collections.Generic;

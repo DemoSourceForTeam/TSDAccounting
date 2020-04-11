@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="SalaryReport.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: 19 May 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 10/9/2014    LinhMC               Sửa lại toàn bộ method check điều kiện nếu nạp lại dữ liệu thì ko show form param
- * ************************************************************************/
+﻿
 
 using System;
 using System.Linq;

@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FixedAssetCategoryRequest.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Thursday, February 27, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.BusinessComponents.Messages.MessageBase;
 using TSD.AccountingSoft.BusinessEntities.Dictionary;

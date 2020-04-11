@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="UserControlSalaryList.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   TuanHM
- * Email:    TuanHM@buca.vn
- * Website:
- * Create Date: Tuesday, July 9, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

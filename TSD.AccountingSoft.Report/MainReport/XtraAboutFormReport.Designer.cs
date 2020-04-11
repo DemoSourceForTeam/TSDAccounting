@@ -250,7 +250,7 @@
             this.lblEmail.Size = new System.Drawing.Size(80, 13);
             this.lblEmail.TabIndex = 24;
             this.lblEmail.TabStop = true;
-            this.lblEmail.Text = "head@buca.vn";
+            this.lblEmail.Text = "head@black.vn";
             this.lblEmail.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblEmail_LinkClicked);
             // 
             // lblWebsite
@@ -261,7 +261,7 @@
             this.lblWebsite.Size = new System.Drawing.Size(106, 13);
             this.lblWebsite.TabIndex = 22;
             this.lblWebsite.TabStop = true;
-            this.lblWebsite.Text = "http://www.buca.vn";
+            this.lblWebsite.Text = "http://www.black.vn";
             this.lblWebsite.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblWebsite_LinkClicked);
             // 
             // Label5

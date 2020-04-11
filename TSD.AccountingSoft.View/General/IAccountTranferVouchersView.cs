@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="GeneralVouchersCapitalAllocate.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: 17 April 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

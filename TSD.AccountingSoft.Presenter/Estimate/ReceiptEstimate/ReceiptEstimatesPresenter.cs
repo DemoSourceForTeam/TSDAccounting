@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="ReceiptEstimatePresenter.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 19 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System.Collections.Generic;
 using System.Data;
@@ -170,9 +156,9 @@ namespace TSD.AccountingSoft.Presenter.Estimate.ReceiptEstimate
         {
             string content = GetContent(yearOfPaning, refTypeId, companyCode);
             var head = @"<?xml version='1.0' encoding='utf-8'?>";
-            head = head + @"<BUCAEstimate>";
+            head = head + @"<TSDEstimate>";
             head = head + content;
-            head = head + "</BUCAEstimate>";
+            head = head + "</TSDEstimate>";
             if (!Directory.Exists(tempFolderPath))
             {
                 Directory.CreateDirectory(tempFolderPath);

@@ -1,20 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="CommonFunction.cs" company="Linh Khang">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Author:   LinhMC
- * Email:    linhmc.vn@gmail.com
- * Website:
- * Create Date: Sunday, February 09, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -115,12 +99,12 @@ namespace TSD.AccountingSoft.WindowsForm.CommonClass
                 }
                 GlobalVariable.CompanyInCharge = "Phiên bản chưa đăng ký bản quyền";
                 GlobalVariable.CompanyName = "Vui lòng liên hệ với tác giả";
-                GlobalVariable.CompanyAddress = "Công ty cổ phần BuCA";
+                GlobalVariable.CompanyAddress = "Công ty TSDSoft";
                 return false;
             }
             GlobalVariable.CompanyInCharge = "Phiên bản chưa đăng ký bản quyền";
             GlobalVariable.CompanyName = "Vui lòng liên hệ với tác giả";
-            GlobalVariable.CompanyAddress = "Công ty cổ phần BuCA";
+            GlobalVariable.CompanyAddress = "Công ty TSDSoft";
             return false;
         }
 

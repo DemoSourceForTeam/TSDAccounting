@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="FrmC30BB.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangNK
- * Email:    thangnk@buca.vn
- * Website:
- * Create Date: 14 June 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * 
- * ************************************************************************/
+﻿
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -49,9 +34,9 @@ namespace TSD.AccountingSoft.Report.ParameterReportForm
         /// </summary>
         private readonly C30BBPresenter _c30BBPresenter;
 
-       // private List<ReportListModel> _reportList;
+        // private List<ReportListModel> _reportList;
 
-        private  ReportListPresenter _reportListPresenter;
+        private ReportListPresenter _reportListPresenter;
 
 
         /// <summary>
@@ -108,13 +93,13 @@ namespace TSD.AccountingSoft.Report.ParameterReportForm
             }
             set
             {
-                
+
                 grdDetail.DataSource = value;
                 List<XtraColumn> columnsCollection = new List<XtraColumn>();
                 gridViewDetail.PopulateColumns(value);
                 columnsCollection.Add(new XtraColumn { ColumnName = "IsSelect", FixedColumn = FixedStyle.Left, ColumnCaption = "Chọn", ColumnPosition = 1, ColumnVisible = true, ColumnWith = 30, Alignment = HorzAlignment.Center });
                 columnsCollection.Add(new XtraColumn { ColumnName = "RefId", ColumnVisible = false, FixedColumn = FixedStyle.Left, Alignment = HorzAlignment.Center });
-                columnsCollection.Add(new XtraColumn { ColumnName = "RefNo", ColumnCaption = "Số chứng từ", ColumnPosition = 2, ColumnVisible = true, ColumnWith = 100, FixedColumn = FixedStyle.Left, AllowEdit = true, Alignment = HorzAlignment.Center});
+                columnsCollection.Add(new XtraColumn { ColumnName = "RefNo", ColumnCaption = "Số chứng từ", ColumnPosition = 2, ColumnVisible = true, ColumnWith = 100, FixedColumn = FixedStyle.Left, AllowEdit = true, Alignment = HorzAlignment.Center });
                 columnsCollection.Add(new XtraColumn { ColumnName = "PostedDate", ColumnCaption = "Ngày HT", FixedColumn = FixedStyle.Left, ColumnPosition = 3, ColumnVisible = true, ColumnWith = 50, ToolTip = "Ngày hach toán", Alignment = HorzAlignment.Center });
                 columnsCollection.Add(new XtraColumn { ColumnName = "RefDate", ColumnCaption = "Ngày CT", FixedColumn = FixedStyle.Left, ColumnPosition = 4, ColumnVisible = true, ColumnWith = 50, ToolTip = "Ngày chứng từ", Alignment = HorzAlignment.Center });
                 columnsCollection.Add(new XtraColumn { ColumnName = "JournalMemo", ColumnCaption = "Diễn giải", FixedColumn = FixedStyle.Left, ColumnPosition = 5, ColumnVisible = true, ColumnWith = 200, Alignment = HorzAlignment.Center });
@@ -134,7 +119,7 @@ namespace TSD.AccountingSoft.Report.ParameterReportForm
                         gridViewDetail.Columns[column.ColumnName].VisibleIndex = column.ColumnPosition;
                         gridViewDetail.Columns[column.ColumnName].Width = column.ColumnWith;
                         gridViewDetail.Columns[column.ColumnName].Fixed = column.FixedColumn;
-                        gridViewDetail.Columns[column.ColumnName].ToolTip = column.ToolTip; 
+                        gridViewDetail.Columns[column.ColumnName].ToolTip = column.ToolTip;
                     }
                     else gridViewDetail.Columns[column.ColumnName].Visible = false;
                 }
@@ -143,7 +128,7 @@ namespace TSD.AccountingSoft.Report.ParameterReportForm
 
         private void FrmC30BB2_Load(object sender, EventArgs e)
         {
-           //string postedDate =new 
+            //string postedDate =new 
             string postedDate = new GlobalVariable().PostedDate;
             _c30BBPresenter.Display(Convert.ToDateTime(postedDate).Year, 200);
         }

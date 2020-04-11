@@ -363,7 +363,7 @@ namespace TSD.AccountingSoft.DataHelpers
         /// <returns></returns>
         private static string GetValueByRegistryKey(string key)
         {
-            var winLogonKey = Registry.CurrentUser.OpenSubKey(@"BuCAJSC\aBigTime");
+            var winLogonKey = Registry.CurrentUser.OpenSubKey(@"TSDSoft\AccountingSoft");
             if (winLogonKey != null)
                 return winLogonKey.GetValue(key) == null ? null : (string)winLogonKey.GetValue(key);
             return null;

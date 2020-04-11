@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="UserControlAccountList.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   Bangnc
- * Email:    bangnc@buca.vn
- * Website:
- * Create Date: Tuesday, February 11, 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using System;
 using System.Collections.Generic;

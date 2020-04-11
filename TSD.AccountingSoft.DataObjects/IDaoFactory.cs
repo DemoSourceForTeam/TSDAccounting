@@ -1,19 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="IDaoFactory.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 07 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
-
+﻿
 using TSD.AccountingSoft.DataAccess.IEntitiesDao;
 using TSD.AccountingSoft.DataAccess.IEntitiesDao.Cash;
 using TSD.AccountingSoft.DataAccess.IEntitiesDao.Deposit;

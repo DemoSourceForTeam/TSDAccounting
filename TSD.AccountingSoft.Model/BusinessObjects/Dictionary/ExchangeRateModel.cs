@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="ExchangeRateModel.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   LinhMC
- * Email:    linhmc@buca.vn
- * Website:
- * Create Date: Tuesday, August 18, 2015
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 using System;
 
 namespace TSD.AccountingSoft.Model.BusinessObjects.Dictionary

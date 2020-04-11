@@ -1,18 +1,4 @@
-﻿/***********************************************************************
- * <copyright file="UserControlAudittingLogList.cs" company="BUCA JSC">
- * -->    Copyright (C) statement. All right reserved
- * </copyright>
- * 
- * Created:   ThangND
- * Email:    thangnd@buca.vn
- * Website:
- * Create Date: 12 March 2014
- * Usage: 
- * 
- * RevisionHistory: 
- * Date         Author               Description 
- * 
- * ************************************************************************/
+﻿
 
 using TSD.AccountingSoft.Model.BusinessObjects.Dictionary;
 using TSD.AccountingSoft.Presenter.Dictionary.AudittingLog;
