@@ -146,13 +146,55 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="report.png" />
+    <Resource Include="Resource\Icon\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\noun_cart_1363648.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\noun_Money_-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\noun_hand bag_-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\noun_warehouse_-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\asset-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\noun_tools_-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\noun_bill_-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\noun_Money_-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Component 33 – 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Component 34 – 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Path 304.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FormsSytem\FrmLoginLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FormsSytem\noun_cart_1363648.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="noun_cart_1363648.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="noun_Money_-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="report.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="noun_hand bag_-18.png" />
@@ -182,10 +224,13 @@
     <Resource Include="Path 304.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="FormsSytem\FrmLoginLogo.png" />
+    <Resource Include="Path 301.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="FormsSytem\noun_cart_1363648.png" />
+    <Resource Include="Path 300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Component 29 – 1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

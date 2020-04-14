@@ -27,10 +27,6 @@ namespace TSD.AccountingSoft.WPF
         public void acc()
         {
             var userControl = new UserTest ();
-           
-            
- 
-
         }
 
         private void dckWin_Loaded(object sender, RoutedEventArgs e)
@@ -42,6 +38,32 @@ namespace TSD.AccountingSoft.WPF
         {
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnHidden_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void btnMinimize_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.WindowState == WindowState.Maximized)
+            {
+                Application.Current.MainWindow = this;
+                Application.Current.MainWindow.Width = 600;
+                Application.Current.MainWindow.Height = 400;
+
+
+            }
+            else
+            {
+                this.WindowState = WindowState.Maximized;
+            }
         }
     }
 }

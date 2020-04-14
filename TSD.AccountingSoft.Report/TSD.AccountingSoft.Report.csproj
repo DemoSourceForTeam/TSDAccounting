@@ -53,7 +53,7 @@
       <HintPath>G:\Develop\IS-Bigtime\dllIS\DataManagement.dll</HintPath>
     </Reference>
     <Reference Include="DateTimeRangeBlockDev">
-      <HintPath>..\packages\DateTimeRangeBlockDev.dll</HintPath>
+      <HintPath>C:\Users\Thinkpad\Desktop\New folder\DateTimeRangeBlockDev.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -172,7 +172,7 @@
       <HintPath>F:\Code\SDC\A-BIGTIME-BCT-2019\TSD.AccountingSoft.WindowsForm\bin\Debug\PerpetuumSoft.Writers.Svg.dll</HintPath>
     </Reference>
     <Reference Include="RSSHelper">
-      <HintPath>..\packages\RSSHelper.dll</HintPath>
+      <HintPath>C:\Users\Thinkpad\Desktop\New folder\RSSHelper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

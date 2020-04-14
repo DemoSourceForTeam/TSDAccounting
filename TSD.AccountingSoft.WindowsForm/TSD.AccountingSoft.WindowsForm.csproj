@@ -85,7 +85,7 @@
       <HintPath>F:\Code\SDC\A-BIGTIME-BCT-2019\TSD.AccountingSoft.WindowsForm\bin\Debug\ComponentFactory.Krypton.Workspace.dll</HintPath>
     </Reference>
     <Reference Include="DateTimeRangeBlockDev">
-      <HintPath>..\packages\DateTimeRangeBlockDev.dll</HintPath>
+      <HintPath>C:\Users\Thinkpad\Desktop\New folder\DateTimeRangeBlockDev.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Charts.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -141,7 +141,7 @@
     </Reference>
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Ionic.Zip.dll</HintPath>
+      <HintPath>C:\Users\Thinkpad\Desktop\New folder\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -219,7 +219,7 @@
       <HintPath>F:\Code\SDC\A-BIGTIME-BCT-2019\TSD.AccountingSoft.WindowsForm\bin\Debug\PerpetuumSoft.Writers.Svg.dll</HintPath>
     </Reference>
     <Reference Include="RSSHelper">
-      <HintPath>F:\Code\SDC\A-BIGTIME-BCT-2019\TSD.AccountingSoft.WindowsForm\bin\Debug\RSSHelper.dll</HintPath>
+      <HintPath>C:\Users\Thinkpad\Desktop\New folder\RSSHelper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
