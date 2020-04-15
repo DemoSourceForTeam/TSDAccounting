@@ -93,6 +93,7 @@
     <Compile Include="UserDictionary\UserTest.xaml.cs">
       <DependentUpon>UserTest.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\DynamicMenuItem.cs" />
     <Page Include="FormsSytem\FrmLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

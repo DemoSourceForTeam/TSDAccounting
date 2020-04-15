@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TSD.AccountingSoft.WPF.UserDictionary;
+using TSD.AccountingSoft.WPF.ViewModel;
+
 namespace TSD.AccountingSoft.WPF
 {
     /// <summary>
@@ -23,6 +25,14 @@ namespace TSD.AccountingSoft.WPF
         public MainWindow()
         {
             InitializeComponent();
+
+            var menuRegister = new List<SubItem>();
+            menuRegister.Add(new SubItem("btnProc","Quy Trinh"));
+            menuRegister.Add(new SubItem("btnRevenue","Thu Chi Tien"));
+            menuRegister.Add(new SubItem("btnCategory","Danh muc"));
+            var item = new DynamicMenuItem("Tổng hợp", menuRegister);
+            grdDynamic.DataContext = item;
+
         }
         public void acc()
         {
@@ -64,6 +74,12 @@ namespace TSD.AccountingSoft.WPF
             {
                 this.WindowState = WindowState.Maximized;
             }
+        }
+
+        public void LoadDynamicItem()
+        {
+          
+
         }
     }
 }

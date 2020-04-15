@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:TSD.AccountingSoft.WPF"
         xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxdb="http://schemas.devexpress.com/winfx/2008/xaml/demobase" xmlns:Primitives="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon" x:Class="TSD.AccountingSoft.WPF.MainWindow"
         mc:Ignorable="d"
@@ -26,8 +27,8 @@
                         <ImageBrush ImageSource="Path 301.png" Stretch="None"/>
                     </Button.Background>
                 </Button>
-                
-                
+
+
             </DockPanel>
         </DockPanel>
         <DockPanel Height="auto" Width="auto" LastChildFill="True" Margin="0"  MinHeight="30" MinWidth="30" Background="#FFE6E6E6">
@@ -124,7 +125,21 @@
                 </DockPanel>
             </DockPanel>
             <DockPanel Height="auto" LastChildFill="True" Margin="0" Width="312" Background="#FFE6E6E6" MaxWidth="312" HorizontalAlignment="Left">
-                <DockPanel Height="403" LastChildFill="False" Margin="10,0,20,10" VerticalAlignment="Top" DockPanel.Dock="Top" MaxWidth="282" MinWidth="282" MaxHeight="403" Background="White" UseLayoutRounding="True"/>
+                <DockPanel Height="403" LastChildFill="False" Margin="10,0,20,10" VerticalAlignment="Top" DockPanel.Dock="Top" MaxWidth="282" MinWidth="282" MaxHeight="403" Background="White" UseLayoutRounding="True">
+                    <Grid x:Name="grdDynamic">
+                      
+                        <ListBoxItem x:Name="ListViewItemMenu" Content="{Binding Path=Header}" Padding="37 14" FontSize="15" Foreground="Black" Margin="0,0,-280,348"/>
+                        
+                            <ListView x:Name="ListViewMenu" ItemsSource="{Binding Path=SubItems}" Foreground="White" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="0,55,-280,0" RenderTransformOrigin="0.48,0.584" BorderBrush="{x:Null}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=Text}" Padding="20 5" Height="30" Foreground="Black"/>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                     
+                    </Grid>
+                </DockPanel>
                 <DockPanel Height="506" LastChildFill="False" Margin="10,0,20,10" Width="144" DockPanel.Dock="Bottom" Background="White" MinWidth="282" MaxWidth="282" MaxHeight="506" MinHeight="506" VerticalAlignment="Bottom">
                     <Button x:Name="btnSynthetic" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,5,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
