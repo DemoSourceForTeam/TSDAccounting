@@ -233,5 +233,26 @@
   <ItemGroup>
     <Resource Include="Component 29 – 1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Group_9350.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Group_9349.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Group 9286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Group_9348.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Group_9927.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Group_9920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Group_9921.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

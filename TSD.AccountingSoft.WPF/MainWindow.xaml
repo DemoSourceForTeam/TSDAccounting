@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:TSD.AccountingSoft.WPF"
         xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxdb="http://schemas.devexpress.com/winfx/2008/xaml/demobase" xmlns:Primitives="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon" x:Class="TSD.AccountingSoft.WPF.MainWindow"
         mc:Ignorable="d"
-        Title="KT ONE" Height="1080" Width="1920"  VerticalAlignment="Top" TextOptions.TextFormattingMode="Display" AllowDrop="True" Background="#FF2B579A" Foreground="#FF2B579A" WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        Title="KT ONE" Height="1080" Width="1920"  VerticalAlignment="Top" TextOptions.TextFormattingMode="Display" AllowDrop="True" Background="#FF2B579A" Foreground="#FF2B579A" WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded">
 
     <DockPanel x:Name="dckWin" Height="auto" LastChildFill="True" Margin="0,3,0,0" Width="auto" Background="#FFE6E6E6" Loaded="dckWin_Loaded">
         <DockPanel x:Name="dckApp" Height="40" LastChildFill="False" VerticalAlignment="Top" DockPanel.Dock="Top" Background="#FF2B579A" Margin="0" MaxHeight="40" MinHeight="40" MouseDown="dckApp_MouseDown">
@@ -127,21 +127,39 @@
             <DockPanel Height="auto" LastChildFill="True" Margin="0" Width="312" Background="#FFE6E6E6" MaxWidth="312" HorizontalAlignment="Left">
                 <DockPanel Height="403" LastChildFill="False" Margin="10,0,20,10" VerticalAlignment="Top" DockPanel.Dock="Top" MaxWidth="282" MinWidth="282" MaxHeight="403" Background="White" UseLayoutRounding="True">
                     <Grid x:Name="grdDynamic">
-                      
-                        <ListBoxItem x:Name="ListViewItemMenu" Content="{Binding Path=Header}" Padding="37 14" FontSize="15" Foreground="Black" Margin="0,0,-280,348"/>
-                        
-                            <ListView x:Name="ListViewMenu" ItemsSource="{Binding Path=SubItems}" Foreground="White" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="0,55,-280,0" RenderTransformOrigin="0.48,0.584" BorderBrush="{x:Null}">
-                                <ListView.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Path=Text}" Padding="20 5" Height="30" Foreground="Black"/>
-                                    </DataTemplate>
-                                </ListView.ItemTemplate>
-                            </ListView>
-                     
+
+                        <ListBoxItem x:Name="ListViewItemMenu" Content="{Binding Path=Header}" Padding="0 0" FontSize="15" Foreground="Black" Margin="0,0,-280,348" BorderThickness="0,0,0,2" HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch">
+                            <ListBoxItem.BorderBrush>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black" Offset="0"/>
+                                    <GradientStop Color="#FFE6E6E6" Offset="1"/>
+                                </LinearGradientBrush>
+                            </ListBoxItem.BorderBrush>
+                            
+                        </ListBoxItem>
+
+                        <ListView x:Name="ListViewMenu"   ItemsSource="{Binding Path=SubItems}" Foreground="White" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="0,54,-280,1" RenderTransformOrigin="0.48,0.584" BorderBrush="{x:Null}">
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="ListViewItem">
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                  
+                                        <StackPanel Height="auto" Width="auto" Orientation="Horizontal" Background="White"  MouseDown="sbSubMenu_Click" Tag="{Binding Path=Name}">
+                                            <Image Source="{Binding Path= ImageUrl}"    Width="20" Height="20"  Margin="20,0" />
+                                            <TextBlock  Text="{Binding Path=Text}" Padding="5 5" Height="30" Foreground="Black" Focusable="True"/>
+                                        </StackPanel>
+                                   
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+
                     </Grid>
                 </DockPanel>
-                <DockPanel Height="506" LastChildFill="False" Margin="10,0,20,10" Width="144" DockPanel.Dock="Bottom" Background="White" MinWidth="282" MaxWidth="282" MaxHeight="506" MinHeight="506" VerticalAlignment="Bottom">
-                    <Button x:Name="btnSynthetic" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,5,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
+                <DockPanel x:Name="sbMainMenu" Height="506" LastChildFill="False" Margin="10,0,20,10" Width="144" DockPanel.Dock="Bottom" Background="White" MinWidth="282" MaxWidth="282" MaxHeight="506" MinHeight="506" VerticalAlignment="Bottom">
+                    <Button x:Name="btnSynthetic" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,5,5,0" HorizontalContentAlignment="Left" Height="54" Background="White"  >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
                             <Image Source="report.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Tổng hợp" VerticalAlignment="Center" Margin="0,12,0,12" Width="99" FontSize="16" />
@@ -161,7 +179,7 @@
                     </Button>
                     <Button x:Name="btnSell" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="noun_hand bag_-18.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/noun_hand bag_-18.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Bán hàng" VerticalAlignment="Center" Margin="0,12,0,12" Width="99" FontSize="16" />
                         </StackPanel>
                     </Button>
@@ -200,7 +218,5 @@
             </DockPanel>
             <DockPanel Height="auto" LastChildFill="False" Width="auto" Background="White" Margin="0,0,10,10"/>
         </DockPanel>
-
-
     </DockPanel>
 </Window>
