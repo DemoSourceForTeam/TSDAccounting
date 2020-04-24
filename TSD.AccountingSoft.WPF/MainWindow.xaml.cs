@@ -1,18 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using TSD.AccountingSoft.WPF.UserDictionary;
 using TSD.AccountingSoft.WPF.ViewModel;
 
 namespace TSD.AccountingSoft.WPF
@@ -26,14 +16,11 @@ namespace TSD.AccountingSoft.WPF
         {
             InitializeComponent();
         }
-        public void acc()
-        {
-            var userControl = new UserTest();
-        }
+     
 
         private void dckWin_Loaded(object sender, RoutedEventArgs e)
         {
-            acc();
+        
         }
         #region EventWindowns
         private void dckApp_MouseDown(object sender, MouseButtonEventArgs e)

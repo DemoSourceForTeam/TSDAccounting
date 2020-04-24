@@ -84,16 +84,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FormsBase\test.xaml.cs">
+      <DependentUpon>test.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsBase\UserControlBaseList.xaml.cs">
+      <DependentUpon>UserControlBaseList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FormsBase\LayoutFormBase.xaml.cs">
       <DependentUpon>LayoutFormBase.xaml</DependentUpon>
     </Compile>
     <Compile Include="FormsSytem\FrmLogin.xaml.cs">
       <DependentUpon>FrmLogin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UserDictionary\UserTest.xaml.cs">
-      <DependentUpon>UserTest.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModel\DynamicMenuItem.cs" />
+    <Page Include="FormsBase\test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormsBase\UserControlBaseList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FormsSytem\FrmLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -111,10 +122,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="FormsBase\LayoutFormBase.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserDictionary\UserTest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -204,9 +211,6 @@
     <Resource Include="noun_warehouse_-3.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="asset-2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="noun_tools_-6.png" />
   </ItemGroup>
   <ItemGroup>
@@ -216,12 +220,6 @@
     <Resource Include="noun_Money_-35.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Component 33 – 1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Component 34 – 1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Path 304.png" />
   </ItemGroup>
   <ItemGroup>
@@ -229,9 +227,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Path 300.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Component 29 – 1.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resource\Icon\Group_9350.png" />
@@ -253,6 +248,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resource\Icon\Group_9921.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserDictionary\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

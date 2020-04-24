@@ -22,6 +22,10 @@ namespace TSD.AccountingSoft.WPF
         public LayoutFormBase()
         {
             InitializeComponent();
+            TextBox txtTe = new TextBox();
+            txtTe.Height = 30;
+            txtTe.Width = 30;
+            HeaderBar.Children.Add(txtTe);
         }
 
 
@@ -46,5 +50,7 @@ namespace TSD.AccountingSoft.WPF
             }
 
         }
+     
+       
     }
 }

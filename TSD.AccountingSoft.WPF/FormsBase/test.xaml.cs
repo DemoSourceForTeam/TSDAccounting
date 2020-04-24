@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TSD.AccountingSoft.WPF.UserDictionary
+namespace TSD.AccountingSoft.WPF.FormsBase
 {
     /// <summary>
-    /// Interaction logic for UserTest.xaml
+    /// Interaction logic for test.xaml
     /// </summary>
-    public partial class UserTest : UserControl
+    public partial class test : UserControl
     {
-        public UserTest()
+        public test()
         {
             InitializeComponent();
         }

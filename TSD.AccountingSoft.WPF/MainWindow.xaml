@@ -167,13 +167,13 @@
                     </Button>
                     <Button x:Name="btnCash" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="noun_Money_-4.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/noun_Money_-4.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Tiền mặt" VerticalAlignment="Center" Margin="0,12,0,12" Width="99" FontSize="16" />
                         </StackPanel>
                     </Button>
                     <Button x:Name="btnPurchase" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="noun_cart_1363648.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/noun_cart_1363648.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Mua hàng" VerticalAlignment="Center" Margin="0,12,0,12" Width="99" FontSize="16" />
                         </StackPanel>
                     </Button>
@@ -185,31 +185,31 @@
                     </Button>
                     <Button x:Name="btnSupplies" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="noun_warehouse_-3.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/noun_warehouse_-3.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Vật tư" VerticalAlignment="Center" Margin="0,12,0,12" Width="99" FontSize="16" />
                         </StackPanel>
                     </Button>
                     <Button x:Name="btnFixedAsset" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="asset-2.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/asset-2.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Tài sản cố định" VerticalAlignment="Center" Margin="0,12,0,12" Width="156" FontSize="16" />
                         </StackPanel>
                     </Button>
                     <Button x:Name="btnInventoryItems" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="noun_tools_-6.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/noun_tools_-6.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Công cụ dụng cụ" VerticalAlignment="Center" Margin="0,12,0,12" Width="162" FontSize="16" />
                         </StackPanel>
                     </Button>
                     <Button x:Name="btnPrices" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,0" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="noun_bill_-5.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/noun_bill_-5.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Giá thành" VerticalAlignment="Center" Margin="0,12,0,12" Width="99" FontSize="16" />
                         </StackPanel>
                     </Button>
                     <Button x:Name="btnInvestor" DockPanel.Dock="Top" MinHeight="54" BorderBrush="White" Margin="5,1,5,5" HorizontalContentAlignment="Left" Height="54" Background="White" >
                         <StackPanel Height="auto" Width="auto" Orientation="Horizontal" >
-                            <Image Source="noun_Money_-35.png" Width="20" Height="20"  Margin="20,0"/>
+                            <Image Source="Resource/Icon/noun_Money_-35.png" Width="20" Height="20"  Margin="20,0"/>
                             <TextBlock Text="Chủ đầu tư" VerticalAlignment="Center" Margin="0,12,0,12" Width="138" FontSize="16" />
                         </StackPanel>
                     </Button>
