@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>TSD.AccountingSoft.WPF</RootNamespace>
     <AssemblyName>TSD.AccountingSoft.WPF</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -50,6 +50,8 @@
     <Reference Include="DevExpress.Xpf.Core.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="devexpress.xpf.demobase.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Docking.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Grid.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Grid.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.LayoutControl.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Ribbon.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
@@ -84,27 +86,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="FormsBase\test.xaml.cs">
-      <DependentUpon>test.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="FormsBase\UserControlBaseList.xaml.cs">
-      <DependentUpon>UserControlBaseList.xaml</DependentUpon>
-    </Compile>
     <Compile Include="FormsBase\LayoutFormBase.xaml.cs">
       <DependentUpon>LayoutFormBase.xaml</DependentUpon>
     </Compile>
     <Compile Include="FormsSytem\FrmLogin.xaml.cs">
       <DependentUpon>FrmLogin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserDictionary\UCDictionaryList.xaml.cs">
+      <DependentUpon>UCDictionaryList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\DynamicMenuItem.cs" />
-    <Page Include="FormsBase\test.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="FormsBase\UserControlBaseList.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="FormsSytem\FrmLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -122,6 +113,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="FormsBase\LayoutFormBase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserDictionary\UCDictionaryList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -250,7 +245,25 @@
     <Resource Include="Resource\Icon\Group_9921.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UserDictionary\" />
+    <Resource Include="Component 29 – 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Path 11201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserDictionary\Path 11201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserDictionary\Path 11202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserDictionary\Path 11319.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserDictionary\Path 11205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserDictionary\Path 11203.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

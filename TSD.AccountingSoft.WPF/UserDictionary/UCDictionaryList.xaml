@@ -1,0 +1,59 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TSD.AccountingSoft.WPF.UserDictionary"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" x:Class="TSD.AccountingSoft.WPF.UserDictionary.UCDictionaryList"
+             mc:Ignorable="d" 
+             d:DesignHeight="919" d:DesignWidth="1590">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Height="24" Width="101" Orientation="Horizontal" Background="White"   x:Name="btnAdd" Grid.Row="1"  HorizontalAlignment="Left" Margin="0,22,0,0" VerticalAlignment="Top">
+            <Image    Width="20" Height="20"  Margin="15,0,0,0" Source="/TSD.AccountingSoft.WPF;component/Resource/Icon/Path 11201.png" />
+            <TextBlock  Text="Thêm" Padding="15,0,0,0" Height="24" Foreground="Black" Focusable="True" FontSize="16" FontWeight="Medium" Width="55" HorizontalAlignment="Left" Margin="10,0,0,0" FlowDirection="RightToLeft"/>
+        </StackPanel>
+        <StackPanel Height="24" Width="89" Orientation="Horizontal" Background="White"   x:Name="btnEdit" Grid.Row="1"  HorizontalAlignment="Left" Margin="101,22,0,0" VerticalAlignment="Top">
+            <Image    Width="20" Height="20"  Margin="15,0,0,0" Source="Path 11202.png" />
+            <TextBlock  Text="Sửa" Padding="15,0,0,0" Height="24" Foreground="Black" Focusable="True" FontSize="16" FontWeight="Medium" Width="43" HorizontalAlignment="Left" Margin="10,0,0,0" FlowDirection="RightToLeft"/>
+        </StackPanel>
+        <StackPanel Height="24" Width="132" Orientation="Horizontal" Background="White"   x:Name="btnCopy" Grid.Row="1"  HorizontalAlignment="Left" Margin="190,22,0,0" VerticalAlignment="Top">
+            <Image    Width="20" Height="20"  Margin="15,0,0,0" Source="Path 11319.png" />
+            <TextBlock  Text="Nhân bản" Padding="15,0,0,0" Height="24" Foreground="Black" Focusable="True" FontSize="16" FontWeight="Medium" Width="85" HorizontalAlignment="Left" Margin="10,0,0,0" FlowDirection="RightToLeft"/>
+        </StackPanel>
+        <StackPanel Height="24" Width="88" Orientation="Horizontal" Background="White"   x:Name="btnDelete" Grid.Row="1"  HorizontalAlignment="Left" Margin="322,22,0,0" VerticalAlignment="Top">
+            <Image    Width="20" Height="20"  Margin="15,0,0,0" Source="Path 11203.png" />
+            <TextBlock  Text="Xóa" Padding="15,0,0,0" Height="24" Foreground="Black" Focusable="True" FontSize="16" FontWeight="Medium" Width="42" HorizontalAlignment="Left" Margin="10,0,0,0" FlowDirection="RightToLeft"/>
+        </StackPanel>
+        <StackPanel Height="24" Width="134" Orientation="Horizontal" Background="White"   x:Name="btnExport" Grid.Row="1"  HorizontalAlignment="Left" Margin="410,22,0,0" VerticalAlignment="Top">
+            <Image    Width="20" Height="20"  Margin="15,0,0,0" Source="Path 11205.png" />
+            <TextBlock  Text="Xuất Excel" Padding="15,0,0,0" Height="24" Foreground="Black" Focusable="True" FontSize="16" FontWeight="Medium" Width="87" HorizontalAlignment="Left" Margin="10,0,0,0" FlowDirection="RightToLeft"/>
+        </StackPanel>
+        <StackPanel Margin="0">
+            <TextBlock Margin="18,0,0,0" Text="UserControlListCaption" Height="54
+                       " Width="auto " FontSize="18" FontWeight="Bold" Padding="0,15,0,0" />
+            <Border CornerRadius="0"  BorderThickness="0,0,0,2"  Height="1" Margin="0" VerticalAlignment="Bottom" BorderBrush="#FFE6E6E6"/>
+
+        </StackPanel>
+        <DockPanel LastChildFill="true" Margin="0" Grid.Row="2">
+            <dxg:GridControl AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True">
+                <dxg:GridControl.View>
+                    <dxg:TableView ShowTotalSummary="True"/>
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+
+        </DockPanel>
+
+
+
+
+
+
+
+
+    </Grid>
+</UserControl>

@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TSD.AccountingSoft.WPF.FormsBase
+namespace TSD.AccountingSoft.WPF.UserDictionary
 {
     /// <summary>
-    /// Interaction logic for test.xaml
+    /// Interaction logic for UCDictionaryList.xaml
     /// </summary>
-    public partial class test : UserControl
+    public partial class UCDictionaryList : UserControl
     {
-        public test()
+        public UCDictionaryList()
         {
             InitializeComponent();
         }
