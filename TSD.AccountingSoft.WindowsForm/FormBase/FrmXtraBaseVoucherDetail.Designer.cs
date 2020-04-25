@@ -560,22 +560,22 @@
             this.barDockControlBottom.Appearance.Options.UseBackColor = true;
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 736);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1002, 25);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 737);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1002, 24);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 57);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 679);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 680);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(1002, 57);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 679);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 680);
             // 
             // imageToolbar24Collection
             // 

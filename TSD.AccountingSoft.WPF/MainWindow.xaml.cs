@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using TSD.AccountingSoft.WPF.UserDictionary;
 using TSD.AccountingSoft.WPF.ViewModel;
 
 namespace TSD.AccountingSoft.WPF
@@ -182,6 +183,23 @@ namespace TSD.AccountingSoft.WPF
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             AddEventSBMainMenu();
+        }
+
+       
+
+        private void menuSystem_Click(object sender, RoutedEventArgs e)
+        {
+            MenuItem menuItem = e.Source as MenuItem;
+           switch(menuItem.Name)
+
+                {
+                case "btnDictionary":
+                    var userControl = new UCDictionaryList();
+                    userControl.Infor = menuItem ;
+                    mainPanelUC.Children.Clear();
+                    mainPanelUC.Children.Add(userControl);
+                        break;
+            }
         }
     }
 }

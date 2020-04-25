@@ -1693,9 +1693,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TSD.AccountingSoft.Model\TSD.AccountingSoft.Model.csproj">
+    <ProjectReference Include="..\TSD.AccountingSoft.Model\TSD.AccountingSoft.ModelBC.csproj">
       <Project>{989cf15f-35a7-4bcc-aa36-a5d010031392}</Project>
-      <Name>TSD.AccountingSoft.Model</Name>
+      <Name>TSD.AccountingSoft.ModelBC</Name>
     </ProjectReference>
     <ProjectReference Include="..\TSD.AccountingSoft.Presenter\TSD.AccountingSoft.Presenter.csproj">
       <Project>{a3ce9801-e4b1-4fa7-a01f-1b3e684271c1}</Project>
@@ -1705,13 +1705,13 @@
       <Project>{2f8805f5-08e8-4bc5-b5f2-3f0432f3d972}</Project>
       <Name>TSD.AccountingSoft.Report</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TSD.AccountingSoft.Session\TSD.AccountingSoft.Session.csproj">
+    <ProjectReference Include="..\TSD.AccountingSoft.Session\TSD.AccountingSoft.SessionBC.csproj">
       <Project>{387501bd-3dd5-4e3e-a592-00713d8fe59d}</Project>
-      <Name>TSD.AccountingSoft.Session</Name>
+      <Name>TSD.AccountingSoft.SessionBC</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TSD.AccountingSoft.View\TSD.AccountingSoft.View.csproj">
+    <ProjectReference Include="..\TSD.AccountingSoft.View\TSD.AccountingSoft.ViewBC.csproj">
       <Project>{68c5cd05-c4e8-4184-93c2-39ce0006e115}</Project>
-      <Name>TSD.AccountingSoft.View</Name>
+      <Name>TSD.AccountingSoft.ViewBC</Name>
     </ProjectReference>
     <ProjectReference Include="..\TSD.Enum\TSD.Enum.csproj">
       <Project>{923f1acb-893f-4d65-b2bf-8bb2bcb10d30}</Project>

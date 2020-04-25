@@ -24,15 +24,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.Business
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.WindowsForm", "TSD.AccountingSoft.WindowsForm\TSD.AccountingSoft.WindowsForm.csproj", "{4A1A9F8D-55F1-4748-A23E-896C194A80CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.Model", "TSD.AccountingSoft.Model\TSD.AccountingSoft.Model.csproj", "{989CF15F-35A7-4BCC-AA36-A5D010031392}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.ModelBC", "TSD.AccountingSoft.Model\TSD.AccountingSoft.ModelBC.csproj", "{989CF15F-35A7-4BCC-AA36-A5D010031392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.View", "TSD.AccountingSoft.View\TSD.AccountingSoft.View.csproj", "{68C5CD05-C4E8-4184-93C2-39CE0006E115}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.ViewBC", "TSD.AccountingSoft.View\TSD.AccountingSoft.ViewBC.csproj", "{68C5CD05-C4E8-4184-93C2-39CE0006E115}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.Presenter", "TSD.AccountingSoft.Presenter\TSD.AccountingSoft.Presenter.csproj", "{A3CE9801-E4B1-4FA7-A01F-1B3E684271C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.Report", "TSD.AccountingSoft.Report\TSD.AccountingSoft.Report.csproj", "{2F8805F5-08E8-4BC5-B5F2-3F0432F3D972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.Session", "TSD.AccountingSoft.Session\TSD.AccountingSoft.Session.csproj", "{387501BD-3DD5-4E3E-A592-00713D8FE59D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.AccountingSoft.SessionBC", "TSD.AccountingSoft.Session\TSD.AccountingSoft.SessionBC.csproj", "{387501BD-3DD5-4E3E-A592-00713D8FE59D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSD.Option", "TSD.Option\TSD.Option.csproj", "{00FA8732-696A-4F1D-871D-E046C475E18D}"
 EndProject

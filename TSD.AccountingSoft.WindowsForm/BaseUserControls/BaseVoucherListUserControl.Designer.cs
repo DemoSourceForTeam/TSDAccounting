@@ -30,22 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseVoucherListUserControl));
-            DevExpress.Utils.SuperToolTip superToolTip17 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem17 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip18 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem18 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip19 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem19 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip20 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem20 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip22 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem22 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip21 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem21 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip23 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem23 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip24 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem24 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
             this.imageToobarCollection = new DevExpress.Utils.ImageCollection(this.components);
             this.barToolManager = new DevExpress.XtraBars.BarManager(this.components);
             this.barTools = new DevExpress.XtraBars.Bar();
@@ -162,10 +162,10 @@
             this.barButtonAddNewItem.ImageIndex = 0;
             this.barButtonAddNewItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N));
             this.barButtonAddNewItem.Name = "barButtonAddNewItem";
-            superToolTip17.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem17.Text = "<b>Thêm mới dữ liệu (Ctrl + N)</b>";
-            superToolTip17.Items.Add(toolTipItem17);
-            this.barButtonAddNewItem.SuperTip = superToolTip17;
+            superToolTip1.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem1.Text = "<b>Thêm mới dữ liệu (Ctrl + N)</b>";
+            superToolTip1.Items.Add(toolTipItem1);
+            this.barButtonAddNewItem.SuperTip = superToolTip1;
             // 
             // barButtonEditItem
             // 
@@ -174,10 +174,10 @@
             this.barButtonEditItem.ImageIndex = 2;
             this.barButtonEditItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E));
             this.barButtonEditItem.Name = "barButtonEditItem";
-            superToolTip18.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem18.Text = "<b>Sửa dữ liệu (Ctrl + E)</b>";
-            superToolTip18.Items.Add(toolTipItem18);
-            this.barButtonEditItem.SuperTip = superToolTip18;
+            superToolTip2.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem2.Text = "<b>Sửa dữ liệu (Ctrl + E)</b>";
+            superToolTip2.Items.Add(toolTipItem2);
+            this.barButtonEditItem.SuperTip = superToolTip2;
             // 
             // barButtonDeleteItem
             // 
@@ -186,10 +186,10 @@
             this.barButtonDeleteItem.ImageIndex = 1;
             this.barButtonDeleteItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.Delete);
             this.barButtonDeleteItem.Name = "barButtonDeleteItem";
-            superToolTip19.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem19.Text = "<b>Xóa dữ liệu (Delete)</b>";
-            superToolTip19.Items.Add(toolTipItem19);
-            this.barButtonDeleteItem.SuperTip = superToolTip19;
+            superToolTip3.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem3.Text = "<b>Xóa dữ liệu (Delete)</b>";
+            superToolTip3.Items.Add(toolTipItem3);
+            this.barButtonDeleteItem.SuperTip = superToolTip3;
             // 
             // barButtonDuplicate
             // 
@@ -198,10 +198,10 @@
             this.barButtonDuplicate.ImageIndex = 8;
             this.barButtonDuplicate.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D));
             this.barButtonDuplicate.Name = "barButtonDuplicate";
-            superToolTip20.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem20.Text = "<b> Nhân bản chứng từ (Ctrl + D) </b>";
-            superToolTip20.Items.Add(toolTipItem20);
-            this.barButtonDuplicate.SuperTip = superToolTip20;
+            superToolTip4.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem4.Text = "<b> Nhân bản chứng từ (Ctrl + D) </b>";
+            superToolTip4.Items.Add(toolTipItem4);
+            this.barButtonDuplicate.SuperTip = superToolTip4;
             // 
             // barButtonPrintItem
             // 
@@ -210,10 +210,10 @@
             this.barButtonPrintItem.ImageIndex = 6;
             this.barButtonPrintItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P));
             this.barButtonPrintItem.Name = "barButtonPrintItem";
-            superToolTip22.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem22.Text = "<b>In danh sách (Ctrl + P)</b>";
-            superToolTip22.Items.Add(toolTipItem22);
-            this.barButtonPrintItem.SuperTip = superToolTip22;
+            superToolTip5.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem5.Text = "<b>In danh sách (Ctrl + P)</b>";
+            superToolTip5.Items.Add(toolTipItem5);
+            this.barButtonPrintItem.SuperTip = superToolTip5;
             // 
             // barButtonRefeshItem
             // 
@@ -222,10 +222,10 @@
             this.barButtonRefeshItem.ImageIndex = 7;
             this.barButtonRefeshItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F5);
             this.barButtonRefeshItem.Name = "barButtonRefeshItem";
-            superToolTip21.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem21.Text = "<b>Làm mới dữ liệu (F5)</b>";
-            superToolTip21.Items.Add(toolTipItem21);
-            this.barButtonRefeshItem.SuperTip = superToolTip21;
+            superToolTip6.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem6.Text = "<b>Làm mới dữ liệu (F5)</b>";
+            superToolTip6.Items.Add(toolTipItem6);
+            this.barButtonRefeshItem.SuperTip = superToolTip6;
             // 
             // barButtonHelpItem
             // 
@@ -234,10 +234,10 @@
             this.barButtonHelpItem.ImageIndex = 5;
             this.barButtonHelpItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F1);
             this.barButtonHelpItem.Name = "barButtonHelpItem";
-            superToolTip23.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem23.Text = "<b>Tài liệu trợ giúp (F1)</b>";
-            superToolTip23.Items.Add(toolTipItem23);
-            this.barButtonHelpItem.SuperTip = superToolTip23;
+            superToolTip7.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem7.Text = "<b>Tài liệu trợ giúp (F1)</b>";
+            superToolTip7.Items.Add(toolTipItem7);
+            this.barButtonHelpItem.SuperTip = superToolTip7;
             // 
             // barButtonCalculatePriceItem
             // 
@@ -246,10 +246,10 @@
             this.barButtonCalculatePriceItem.ImageIndex = 9;
             this.barButtonCalculatePriceItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T));
             this.barButtonCalculatePriceItem.Name = "barButtonCalculatePriceItem";
-            superToolTip24.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            toolTipItem24.Text = "<b>Tính giá xuất kho (Ctrl+T)</b>";
-            superToolTip24.Items.Add(toolTipItem24);
-            this.barButtonCalculatePriceItem.SuperTip = superToolTip24;
+            superToolTip8.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
+            toolTipItem8.Text = "<b>Tính giá xuất kho (Ctrl+T)</b>";
+            superToolTip8.Items.Add(toolTipItem8);
+            this.barButtonCalculatePriceItem.SuperTip = superToolTip8;
             this.barButtonCalculatePriceItem.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // barDockControlTop

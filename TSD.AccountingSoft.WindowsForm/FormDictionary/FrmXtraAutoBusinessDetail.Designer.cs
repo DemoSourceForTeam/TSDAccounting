@@ -405,7 +405,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 345);
             this.Controls.Add(this.chkIsActive);
-            this.EventTime = new System.DateTime(2020, 2, 3, 9, 13, 1, 901);
+            this.EventTime = new System.DateTime(2020, 4, 25, 9, 32, 4, 511);
             this.Name = "FrmXtraAutoBusinessDetails";
             this.Text = "FrmXtraAutoBusinessDetails";
             this.Controls.SetChildIndex(this.btnHelp, 0);

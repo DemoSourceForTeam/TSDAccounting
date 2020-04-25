@@ -206,13 +206,13 @@
     <Compile Include="Tool\SUIncrementDecrementsPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TSD.AccountingSoft.Model\TSD.AccountingSoft.Model.csproj">
+    <ProjectReference Include="..\TSD.AccountingSoft.Model\TSD.AccountingSoft.ModelBC.csproj">
       <Project>{989cf15f-35a7-4bcc-aa36-a5d010031392}</Project>
-      <Name>TSD.AccountingSoft.Model</Name>
+      <Name>TSD.AccountingSoft.ModelBC</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TSD.AccountingSoft.View\TSD.AccountingSoft.View.csproj">
+    <ProjectReference Include="..\TSD.AccountingSoft.View\TSD.AccountingSoft.ViewBC.csproj">
       <Project>{68c5cd05-c4e8-4184-93c2-39ce0006e115}</Project>
-      <Name>TSD.AccountingSoft.View</Name>
+      <Name>TSD.AccountingSoft.ViewBC</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

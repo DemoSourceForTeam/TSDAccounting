@@ -265,5 +265,16 @@
   <ItemGroup>
     <Resource Include="UserDictionary\Path 11203.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Path 11202.png" />
+    <Resource Include="Resource\Icon\Path 11203.png" />
+    <Resource Include="Resource\Icon\Path 11205.png" />
+    <Resource Include="Resource\Icon\Path 11319.png" />
+    <Resource Include="Resource\Icon\Path 300.png" />
+    <Resource Include="Resource\Icon\Path 301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\Component 29 – 1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

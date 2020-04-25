@@ -410,7 +410,7 @@
             this.ClientSize = new System.Drawing.Size(520, 153);
             this.ComponentName = "Công cụ dụng cụ";
             this.Controls.Add(this.chkIsActive);
-            this.EventTime = new System.DateTime(2020, 2, 11, 11, 27, 0, 173);
+            this.EventTime = new System.DateTime(2020, 4, 25, 9, 32, 4, 755);
             this.FormCaption = "Công cụ dụng cụ";
             this.Name = "FrmXtraInventoryItemDetail";
             this.Reference = "THÊM CÔNG CỤ DỤNG CỤ - ID ";

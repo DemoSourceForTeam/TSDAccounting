@@ -217,7 +217,7 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 537);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 538);
             this.barDockControlBottom.Size = new System.Drawing.Size(789, 0);
             // 
             // barDockControlLeft
@@ -225,14 +225,14 @@
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 53);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 484);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 485);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(789, 53);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 484);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 485);
             // 
             // imageToobarCollection
             // 
@@ -271,7 +271,7 @@
             this.grdList.MainView = this.gridView;
             this.grdList.MenuManager = this.barToolManager;
             this.grdList.Name = "grdList";
-            this.grdList.Size = new System.Drawing.Size(789, 484);
+            this.grdList.Size = new System.Drawing.Size(789, 485);
             this.grdList.TabIndex = 4;
             this.grdList.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView});
@@ -370,22 +370,22 @@
             // 
             this.barDockControl6.CausesValidation = false;
             this.barDockControl6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControl6.Location = new System.Drawing.Point(0, 537);
-            this.barDockControl6.Size = new System.Drawing.Size(789, 23);
+            this.barDockControl6.Location = new System.Drawing.Point(0, 538);
+            this.barDockControl6.Size = new System.Drawing.Size(789, 22);
             // 
             // barDockControl7
             // 
             this.barDockControl7.CausesValidation = false;
             this.barDockControl7.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControl7.Location = new System.Drawing.Point(0, 22);
-            this.barDockControl7.Size = new System.Drawing.Size(0, 515);
+            this.barDockControl7.Size = new System.Drawing.Size(0, 516);
             // 
             // barDockControl8
             // 
             this.barDockControl8.CausesValidation = false;
             this.barDockControl8.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControl8.Location = new System.Drawing.Point(789, 22);
-            this.barDockControl8.Size = new System.Drawing.Size(0, 515);
+            this.barDockControl8.Size = new System.Drawing.Size(0, 516);
             // 
             // BaseListUserControl
             // 

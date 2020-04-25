@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,21 @@ namespace TSD.AccountingSoft.WPF.UserDictionary
     /// </summary>
     public partial class UCDictionaryList : UserControl
     {
+        public  object Infor { get; set; }
         public UCDictionaryList()
         {
             InitializeComponent();
+        }
+
+        private void btnAdd_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            txtCaption.Text = Infor.ToString();
+
         }
     }
 }
