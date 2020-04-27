@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -13,6 +14,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TSD.AccountingSoft.Models;
+using TSD.AccountingSoft.Models.BusinessObject.Dictionary;
+using TSD.AccountingSoft.ViewModel.Dictionary;
 
 namespace TSD.AccountingSoft.WPF.UserDictionary
 {
@@ -21,10 +25,19 @@ namespace TSD.AccountingSoft.WPF.UserDictionary
     /// </summary>
     public partial class UCDictionaryList : UserControl
     {
-        public  object Infor { get; set; }
+        public RefTypeViewModel RefTypeView { get; set; }
+        public object Infor { get; set; }
         public UCDictionaryList()
         {
             InitializeComponent();
+            RefTypeView = new RefTypeViewModel(new Provider());
+            grdList.ItemsSource = RefTypeView.Display();
+           
+            grdControl.ItemsSource = RefTypeView.Display();
+            grdControl.Columns["RefTypeID"].Header = "abc";
+            
+            
+           // grdList.Columns[1].Header = "abc";
         }
 
         private void btnAdd_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

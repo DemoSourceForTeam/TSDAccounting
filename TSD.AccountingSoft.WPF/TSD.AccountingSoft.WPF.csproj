@@ -276,5 +276,15 @@
   <ItemGroup>
     <Resource Include="Resource\Icon\Component 29 – 1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TSD.AccountingSoft.Models\TSD.AccountingSoft.Models.csproj">
+      <Project>{ec28ba48-a2a0-43e6-91bf-775220808244}</Project>
+      <Name>TSD.AccountingSoft.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TSD.AccountingSoft.ViewModel\TSD.AccountingSoft.ViewModel.csproj">
+      <Project>{11ae120c-603b-4885-80b1-8986239f7c0f}</Project>
+      <Name>TSD.AccountingSoft.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
