@@ -9866,11 +9866,12 @@ namespace TSD.AccountingSoft.Model
         /// <exception cref="System.ApplicationException"></exception>
         public int UpdateRefType(RefTypeModel refTypeModel)
         {
-            var refTypeEntity = Mapper.ToDataTransferObject(refTypeModel);
-            var response = RefTypeClient.UpdateRefType(refTypeEntity);
-            if (response.Acknowledge != AcknowledgeType.Success)
-                throw new ApplicationException(response.Message);
-            return response.RefTypeId;
+            //var refTypeEntity = Mapper.ToDataTransferObject(refTypeModel);
+            //var response = RefTypeClient.UpdateRefType(refTypeEntity);
+            //if (response.Acknowledge != AcknowledgeType.Success)
+            //    throw new ApplicationException(response.Message);
+            //return response.RefTypeId;
+            return 0;
         }
 
         #endregion

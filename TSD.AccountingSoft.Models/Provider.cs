@@ -4,12 +4,26 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TSD.AccountingSoft.BusinessComponents.Messages.MessageBase;
 using TSD.AccountingSoft.Models.BusinessObject.Dictionary;
+using TSD.AccountingSoft.Models.BusinessObject.Mapper;
+using TSD.AccountingSoft.BusinessComponents.Messages.Dictionary;
+using TSD.AccountingSoft.BusinessComponents.Facade.Dictionary;
+
 
 namespace TSD.AccountingSoft.Models
 {
     public class Provider : IProvider
     {
+        private static readonly RefTypeFacade RefTypeClient = new RefTypeFacade();
+
+
+        private static T PrepareRequest<T>(T request) where T : RequestBase
+        {
+            return request;
+        }
+
+        #region RefType
         public string AddRefType(RefTypeModel refTypeModel)
         {
             throw new NotImplementedException();
@@ -47,17 +61,19 @@ namespace TSD.AccountingSoft.Models
 
         public ObservableCollection<RefTypeModel> GetRefTypeModels()
         {
-            var abs = new ObservableCollection<RefTypeModel>();
-            var ab = new RefTypeModel();
-            ab.RefTypeID = 1;
-            ab.RefTypeCation = "testc";
-            abs.Add(ab);
-            return abs;
+            var request = PrepareRequest(new RefTypeRequest());
+            request.LoadOptions = new[] { "RefTypes" };
+
+            var response = RefTypeClient.GetRefTypes(request);
+            if (response.Acknowledge != AcknowledgeType.Success) throw new ApplicationException(response.Message);
+
+            return DictionaryMapper.FromDataTransferObjects(response.RefTypes);
         }
 
         public string UpdateRefType(RefTypeModel refTypeModel)
         {
             throw new NotImplementedException();
         }
+        #endregion
     }
 }

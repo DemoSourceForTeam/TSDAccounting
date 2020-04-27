@@ -40,10 +40,9 @@
 
         </StackPanel>
         <DockPanel LastChildFill="true" Margin="0" Grid.Row="2">
-            <DataGrid x:Name="grdList" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="0,0,0,439" Width="614"/>
-            <dxg:GridControl x:Name="grdControl" AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True" Height="652" VerticalAlignment="Top" Margin="0,147,0,0" Width="886">
+            <dxg:GridControl x:Name="grdControl" AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True" Height="auto" Margin="0,0,0,0" Width="auto">
                 <dxg:GridControl.View>
-                    <dxg:TableView x:Name="grdControlView" ShowTotalSummary="True"/>
+                    <dxg:TableView x:Name="grdControlView" ShowTotalSummary="True" ShowGroupPanel="False" BandHeaderSeparatorColor="#FFE6E6E6"/>
                 </dxg:GridControl.View>
             </dxg:GridControl>
 

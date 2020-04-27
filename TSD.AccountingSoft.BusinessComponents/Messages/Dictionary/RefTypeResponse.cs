@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using TSD.AccountingSoft.BusinessComponents.Messages.MessageBase;
 using TSD.AccountingSoft.BusinessEntities.Dictionary;
-
+using System.Collections.ObjectModel;
 
 namespace TSD.AccountingSoft.BusinessComponents.Messages.Dictionary
 {
@@ -15,7 +15,7 @@ namespace TSD.AccountingSoft.BusinessComponents.Messages.Dictionary
         /// <summary>
         /// The refTypes
         /// </summary>
-        public IList<RefTypeEntity> RefTypes;
+        public ObservableCollection<RefTypeEntity> RefTypes;
 
         /// <summary>
         /// The refType
@@ -28,6 +28,6 @@ namespace TSD.AccountingSoft.BusinessComponents.Messages.Dictionary
         /// <value>
         /// The refType identifier.
         /// </value>
-        public int RefTypeId { get; set; }
+        public long RefTypeId { get; set; }
     }
 }

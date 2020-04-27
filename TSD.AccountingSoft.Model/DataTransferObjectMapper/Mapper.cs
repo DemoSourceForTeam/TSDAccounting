@@ -1549,25 +1549,25 @@ namespace TSD.AccountingSoft.Model.DataTransferObjectMapper
 
             return new RefTypeModel
             {
-                RefTypeId = entity.RefTypeId,
-                RefTypeName = entity.RefTypeName,
-                FunctionId = entity.FunctionId,
-                RefTypeCategoryId = entity.RefTypeCategoryId,
-                MasterTableName = entity.MasterTableName,
-                DetailTableName = entity.DetailTableName,
-                LayoutMaster = entity.LayoutMaster,
-                LayoutDetail = entity.LayoutDetail,
-                DefaultDebitAccountCategoryId = entity.DefaultDebitAccountCategoryId,
-                DefaultDebitAccountId = entity.DefaultDebitAccountId,
-                DefaultCreditAccountCategoryId = entity.DefaultCreditAccountCategoryId,
-                DefaultCreditAccountId = entity.DefaultCreditAccountId,
-                DefaultTaxAccountCategoryId = entity.DefaultTaxAccountCategoryId,
-                DefaultTaxAccountId = entity.DefaultTaxAccountId,
-                AllowDefaultSetting = entity.AllowDefaultSetting,
-                Postable = entity.Postable,
-                Searchable = entity.Searchable,
-                SortOrder = entity.SortOrder,
-                SubSystem = entity.SubSystem
+                //RefTypeId = entity.RefTypeId,
+                //RefTypeName = entity.RefTypeName,
+                //FunctionId = entity.FunctionId,
+                //RefTypeCategoryId = entity.RefTypeCategoryId,
+                //MasterTableName = entity.MasterTableName,
+                //DetailTableName = entity.DetailTableName,
+                //LayoutMaster = entity.LayoutMaster,
+                //LayoutDetail = entity.LayoutDetail,
+                //DefaultDebitAccountCategoryId = entity.DefaultDebitAccountCategoryId,
+                //DefaultDebitAccountId = entity.DefaultDebitAccountId,
+                //DefaultCreditAccountCategoryId = entity.DefaultCreditAccountCategoryId,
+                //DefaultCreditAccountId = entity.DefaultCreditAccountId,
+                //DefaultTaxAccountCategoryId = entity.DefaultTaxAccountCategoryId,
+                //DefaultTaxAccountId = entity.DefaultTaxAccountId,
+                //AllowDefaultSetting = entity.AllowDefaultSetting,
+                //Postable = entity.Postable,
+                //Searchable = entity.Searchable,
+                //SortOrder = entity.SortOrder,
+                //SubSystem = entity.SubSystem
             };
         }
 
@@ -1580,25 +1580,25 @@ namespace TSD.AccountingSoft.Model.DataTransferObjectMapper
         {
             return new RefTypeEntity
             {
-                RefTypeId = model.RefTypeId,
-                DefaultTaxAccountId = model.DefaultTaxAccountId,
-                DefaultCreditAccountCategoryId = model.DefaultCreditAccountCategoryId,
-                AllowDefaultSetting = model.AllowDefaultSetting,
-                DefaultDebitAccountId = model.DefaultDebitAccountId,
-                RefTypeName = model.RefTypeName,
-                DefaultCreditAccountId = model.DefaultCreditAccountId,
-                DefaultTaxAccountCategoryId = model.DefaultTaxAccountCategoryId,
-                DefaultDebitAccountCategoryId = model.DefaultDebitAccountCategoryId,
-                DetailTableName = model.DetailTableName,
-                FunctionId = model.FunctionId,
-                LayoutDetail = model.LayoutDetail,
-                LayoutMaster = model.LayoutMaster,
-                MasterTableName = model.MasterTableName,
-                Postable = model.Postable,
-                RefTypeCategoryId = model.RefTypeCategoryId,
-                Searchable = model.Searchable,
-                SortOrder = model.SortOrder,
-                SubSystem = model.SubSystem
+                //RefTypeId = model.RefTypeId,
+                //DefaultTaxAccountId = model.DefaultTaxAccountId,
+                //DefaultCreditAccountCategoryId = model.DefaultCreditAccountCategoryId,
+                //AllowDefaultSetting = model.AllowDefaultSetting,
+                //DefaultDebitAccountId = model.DefaultDebitAccountId,
+                //RefTypeName = model.RefTypeName,
+                //DefaultCreditAccountId = model.DefaultCreditAccountId,
+                //DefaultTaxAccountCategoryId = model.DefaultTaxAccountCategoryId,
+                //DefaultDebitAccountCategoryId = model.DefaultDebitAccountCategoryId,
+                //DetailTableName = model.DetailTableName,
+                //FunctionId = model.FunctionId,
+                //LayoutDetail = model.LayoutDetail,
+                //LayoutMaster = model.LayoutMaster,
+                //MasterTableName = model.MasterTableName,
+                //Postable = model.Postable,
+                //RefTypeCategoryId = model.RefTypeCategoryId,
+                //Searchable = model.Searchable,
+                //SortOrder = model.SortOrder,
+                //SubSystem = model.SubSystem
             };
         }
         /// <summary>

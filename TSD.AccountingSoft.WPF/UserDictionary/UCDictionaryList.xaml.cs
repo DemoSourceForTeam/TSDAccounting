@@ -31,8 +31,6 @@ namespace TSD.AccountingSoft.WPF.UserDictionary
         {
             InitializeComponent();
             RefTypeView = new RefTypeViewModel(new Provider());
-            grdList.ItemsSource = RefTypeView.Display();
-           
             grdControl.ItemsSource = RefTypeView.Display();
             grdControl.Columns["RefTypeID"].Header = "abc";
             

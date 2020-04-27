@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\..\..\..\..\..\SDC\A-BIGTIME-BCT-2019\packages\AutoMapper.1.1.0.118\lib\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,9 +46,20 @@
   <ItemGroup>
     <Compile Include="BusinessObject\Dictionary\RefTypeDetailModel.cs" />
     <Compile Include="BusinessObject\Dictionary\RefTypeModel.cs" />
+    <Compile Include="BusinessObject\Mapper\DictionaryMapper.cs" />
     <Compile Include="IProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TSD.AccountingSoft.BusinessComponents\TSD.AccountingSoft.BusinessComponents.csproj">
+      <Project>{E9C3E053-C122-4CA8-B6EA-821A2F1981B7}</Project>
+      <Name>TSD.AccountingSoft.BusinessComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TSD.AccountingSoft.BusinessEntities\TSD.AccountingSoft.BusinessEntities.csproj">
+      <Project>{ff5c9137-6b86-43dd-99cf-a214675c72b8}</Project>
+      <Name>TSD.AccountingSoft.BusinessEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

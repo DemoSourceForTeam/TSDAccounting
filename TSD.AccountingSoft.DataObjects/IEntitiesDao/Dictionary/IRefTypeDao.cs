@@ -1,6 +1,7 @@
 ﻿
 
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using TSD.AccountingSoft.BusinessEntities.Dictionary;
 
 
@@ -15,13 +16,13 @@ namespace TSD.AccountingSoft.DataAccess.IEntitiesDao.Dictionary
         /// Gets the reference types.
         /// </summary>
         /// <returns></returns>
-        List<RefTypeEntity> GetRefTypes();
+        ObservableCollection<RefTypeEntity> GetRefTypes();
 
         /// <summary>
         /// Gets the reference type search.
         /// </summary>
         /// <returns></returns>
-        List<RefTypeEntity> GetRefTypeSearch();
+        ObservableCollection<RefTypeEntity> GetRefTypeSearch();
 
 
         RefTypeEntity GetRefType(int refTypeId);

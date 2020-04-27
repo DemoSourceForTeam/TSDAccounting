@@ -63,7 +63,7 @@ namespace TSD.AccountingSoft.BusinessComponents.Facade.Dictionary
                     }
                     scope.Complete();
                 }
-                response.RefTypeId = refTypeEntity.RefTypeId;
+                response.RefTypeId = refTypeEntity.RefTypeID;
                 return response;
             }
             catch (Exception ex)

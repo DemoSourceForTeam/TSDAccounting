@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Configuration;
 using System.Data;
 using System.Data.Common;
@@ -127,6 +128,43 @@ namespace TSD.AccountingSoft.DataHelpers
                     var list = new List<T>();
                     
                     
+                    var reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                        list.Add(make(reader));
+
+                    return list;
+                }
+            }
+        }
+
+        public static ObservableCollection<T> ReadObser<T>(string sql, bool isProcedure, Func<IDataReader, T> make, object[] parms = null)
+        {
+
+            using (var connection = Factory.CreateConnection())
+            {
+                Debug.Assert(connection != null, "connection != null");
+                //_connectionString = string.Format("Data Source={0};Initial Catalog={1};Persist Security Info=True;User ID={2};Password={3}",
+                //                                                GetValueByRegistryKey("InstanceName"),
+                //                                                GetValueByRegistryKey("DatabaseName"),
+                //                                                GetValueByRegistryKey("UserName"),
+                //                                                GetValueByRegistryKey("Password"));
+                //connection.ConnectionString = _connectionString;
+                connection.ConnectionString = ConnectionStrings();
+                 
+                using (var command = Factory.CreateCommand())
+                {
+                    Debug.Assert(command != null, "command != null");
+                    command.Connection = connection;
+                    command.CommandType = isProcedure ? CommandType.StoredProcedure : CommandType.Text;
+                    command.CommandText = sql;
+                    command.SetParameters(parms);
+
+                    connection.Open();
+
+                    var list = new ObservableCollection<T>();
+
+
                     var reader = command.ExecuteReader();
 
                     while (reader.Read())

@@ -7,12 +7,12 @@
         xmlns:local="clr-namespace:TSD.AccountingSoft.WPF"
         xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxdb="http://schemas.devexpress.com/winfx/2008/xaml/demobase" xmlns:Primitives="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon" x:Class="TSD.AccountingSoft.WPF.MainWindow"
         mc:Ignorable="d"
-        Title="KT ONE" Height="1080" Width="1920"  VerticalAlignment="Top" TextOptions.TextFormattingMode="Display" AllowDrop="True" Background="#FF2B579A" Foreground="#FF2B579A" WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded">
+        Title="KT ONE" Height="1080" Width="1920"  VerticalAlignment="Top" TextOptions.TextFormattingMode="Display" AllowDrop="True" Background="#FF2B579A" Foreground="#FF2B579A" WindowStyle="None" WindowStartupLocation="Manual" WindowState="Maximized" Loaded="Window_Loaded">
 
     <DockPanel x:Name="dckWin" Height="auto" LastChildFill="True" Margin="0,3,0,0" Width="auto" Background="#FFE6E6E6" Loaded="dckWin_Loaded">
         <DockPanel x:Name="dckApp" Height="40" LastChildFill="False" VerticalAlignment="Top" DockPanel.Dock="Top" Background="#FF2B579A" Margin="0" MaxHeight="40" MinHeight="40" MouseDown="dckApp_MouseDown">
             <DockPanel x:Name="dockSystem" Height="40" LastChildFill="False" VerticalAlignment="Top" Width="150" DockPanel.Dock="Right">
-                <Button x:Name="btnExit" Width="50" DockPanel.Dock="Right" Padding="0" Click="btnExit_Click">
+                <Button x:Name="btnExit" Width="50" DockPanel.Dock="Right" Padding="0" Click="btnExit_Click" BorderBrush="#FFF5EEEE">
                     <Button.Background>
                         <ImageBrush ImageSource="Path 300.png" Stretch="None"/>
                     </Button.Background>
