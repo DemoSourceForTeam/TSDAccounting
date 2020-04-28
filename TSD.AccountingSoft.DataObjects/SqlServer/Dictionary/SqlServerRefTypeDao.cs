@@ -39,25 +39,17 @@ namespace TSD.AccountingSoft.DataAccess.SqlServer.Dictionary
         {
             return new object[]
             {
-                //"@RefTypeID" ,refTypeEntity.RefTypeId,
-                //"@RefTypeName" ,refTypeEntity.RefTypeName,
-                //"@FunctionID" , refTypeEntity.FunctionId,
-                //"@RefTypeCategoryID ", refTypeEntity.RefTypeCategoryId,
-                //"@MasterTableName ", refTypeEntity.MasterTableName,
-                //"@DetailTableName ", refTypeEntity.DetailTableName,
-                //"@LayoutMaster ", refTypeEntity.LayoutMaster,
-                //"@LayoutDetail ", refTypeEntity.LayoutDetail,
-                //"@DefaultDebitAccountCategoryID ", refTypeEntity.DefaultDebitAccountCategoryId,
-                //"@DefaultDebitAccountID ", refTypeEntity.DefaultDebitAccountId,
-                //"@DefaultCreditAccountCategoryID ", refTypeEntity.DefaultCreditAccountCategoryId,
-                //"@DefaultCreditAccountID ", refTypeEntity.DefaultCreditAccountId,
-                //"@DefaultTaxAccountCategoryID ", refTypeEntity.DefaultTaxAccountCategoryId,
-                //"@DefaultTaxAccountID ", refTypeEntity.DefaultTaxAccountId,
-                //"@AllowDefaultSetting ", refTypeEntity.AllowDefaultSetting,
-                //"@Postable ", refTypeEntity.Postable,
-                //"@Searchable ", refTypeEntity.Searchable,
-                //"@SortOrder ", refTypeEntity.SortOrder,
-                //"@SubSystem ", refTypeEntity.SubSystem,
+               "@RefTypeID ",refTypeEntity.RefTypeID,
+               "@RefTypeNo ",refTypeEntity.RefTypeNo,
+               "@RefTypeCode ",refTypeEntity.RefTypeCode,
+               "@RefTypeName ",refTypeEntity.RefTypeName,
+               "@RefTypeCaption ",refTypeEntity.RefTypeCaption,
+               "@FrmDetail ",refTypeEntity.FrmDetail,
+               "@NameSpace ",refTypeEntity.NameSpace,
+               "@SystemType ",refTypeEntity.SystemType,
+               "@IsEnable ",refTypeEntity.IsEnable,
+               "@ViewModel ",refTypeEntity.ViewModel,
+
             };
         }
 
@@ -103,7 +95,7 @@ namespace TSD.AccountingSoft.DataAccess.SqlServer.Dictionary
         public string UpdateRefType(RefTypeEntity refTypeEntity)
         {
             const string sql = @"uspUpdate_RefType";
-            return Db.Update(sql, true, Take(refTypeEntity));
+            return Db.Update(sql, true, TakeInsert(refTypeEntity));
         }
         public string DeleteRefTypeConvert()
         {
@@ -121,30 +113,20 @@ namespace TSD.AccountingSoft.DataAccess.SqlServer.Dictionary
         /// <summary>
         /// The make
         /// </summary>
-        private static readonly Func<IDataReader, RefTypeEntity> Make = reader =>
+        private static readonly Func<IDataReader, RefTypeEntity> Make = reader => new RefTypeEntity
         {
-            //var refType = new RefTypeEntity();
-            //refType.RefTypeId = reader["RefTypeId"].AsInt();
-            //refType.RefTypeName = reader["RefTypeName"].AsString();
-            //refType.FunctionId = reader["FunctionId"].AsString();
-            //refType.RefTypeCategoryId = reader["RefTypeCategoryId"].AsInt();
-            //refType.MasterTableName = reader["MasterTableName"].AsString();
-            //refType.DetailTableName = reader["DetailTableName"].AsString();
-            //refType.LayoutMaster = reader["LayoutMaster"].AsBool();
-            //refType.LayoutDetail = reader["LayoutDetail"].AsBool();
-            //refType.DefaultDebitAccountCategoryId = reader["DefaultDebitAccountCategoryId"].AsString();
-            //refType.DefaultDebitAccountId = reader["DefaultDebitAccountId"].AsString();
-            //refType.DefaultCreditAccountCategoryId = reader["DefaultCreditAccountCategoryId"].AsString();
-            //refType.DefaultCreditAccountId = reader["DefaultCreditAccountId"].AsString();
-            //refType.DefaultTaxAccountCategoryId = reader["DefaultTaxAccountCategoryId"].AsString();
-            //refType.DefaultTaxAccountId = reader["DefaultTaxAccountId"].AsString();
-            //refType.AllowDefaultSetting = reader["AllowDefaultSetting"].AsBool();
-            //refType.Postable = reader["Postable"].AsBool();
-            //refType.Searchable = reader["Searchable"].AsBool();
-            //refType.SortOrder = reader["SortOrder"].AsInt();
-            //refType.SubSystem = reader["SubSystem"].AsString();
-            //return refType;
-            return null;
+            RefTypeID = reader["RefTypeID"].AsLong(),
+            RefTypeNo = reader["RefTypeNo"].AsInt(),
+            RefTypeCode = reader["RefTypeCode"].AsString(),
+            RefTypeName = reader["RefTypeName"].AsString(),
+            RefTypeCaption = reader["RefTypeCaption"].AsString(),
+            FrmDetail = reader["FrmDetail"].AsString(),
+            NameSpace = reader["NameSpace"].AsString(),
+            SystemType = reader["SystemType"].AsInt(),
+            IsEnable = reader["IsEnable"].AsBool(),
+            ViewModel = reader["ViewModel"].AsString(),
+
+
         };
     }
 }

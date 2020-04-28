@@ -13,7 +13,7 @@ namespace TSD.AccountingSoft.Models.BusinessObject.Mapper
     {
         static DictionaryMapper()
             {
-             AutoMapper.Mapper.CreateMap<RefTypeModel, RefTypeEntity>();
+            AutoMapper.Mapper.CreateMap<RefTypeModel, RefTypeEntity>();
             AutoMapper.Mapper.CreateMap<RefTypeEntity, RefTypeModel>();
             AutoMapper.Mapper.CreateMap<RefTypeDetailModel, RefTypeDetailEntity>();
             AutoMapper.Mapper.CreateMap<RefTypeDetailEntity, RefTypeDetailModel>();

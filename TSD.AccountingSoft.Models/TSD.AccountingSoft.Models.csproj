@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper">
-      <HintPath>..\..\..\..\..\..\..\SDC\A-BIGTIME-BCT-2019\packages\AutoMapper.1.1.0.118\lib\AutoMapper.dll</HintPath>
+      <HintPath>..\TSD.AccountingSoft.WindowsForm\bin\Debug\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
