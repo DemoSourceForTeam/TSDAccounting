@@ -26,9 +26,9 @@ namespace TSD.AccountingSoft.ViewModel.Dictionary
        
         public ObservableCollection<RefTypeModel> Display()
         {
-            RefTypes = provider.GetRefTypeModels()?? new ObservableCollection<RefTypeModel>();
-            IsLoaded = true;
-            return RefTypes;
+            //RefTypes = provider.GetRefTypeModels()?? new ObservableCollection<RefTypeModel>();
+            //IsLoaded = true;
+            return  new ObservableCollection<RefTypeModel>();
         }
 
 
